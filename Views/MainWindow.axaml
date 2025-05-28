@@ -1,0 +1,95 @@
+<Window
+    x:Class="WinPDFPresenter.Views.MainWindow"
+    xmlns="https://github.com/avaloniaui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:md="https://github.com/whistyun/Markdown.Avalonia"
+    xmlns:vm="using:WinPDFPresenter.ViewModels"
+    Title="WinPDFPresenter"
+    d:DesignHeight="720"
+    d:DesignWidth="1080"
+    x:DataType="vm:PresentationViewModel"
+    Background="Transparent"
+    ExtendClientAreaToDecorationsHint="True"
+    Icon="/Assets/avalonia-logo.ico"
+    TransparencyLevelHint="AcrylicBlur"
+    mc:Ignorable="d">
+
+    <Design.DataContext>
+        <vm:PresentationViewModel />
+    </Design.DataContext>
+
+    <Panel>
+        <ExperimentalAcrylicBorder IsHitTestVisible="False">
+            <ExperimentalAcrylicBorder.Material>
+                <ExperimentalAcrylicMaterial
+                    BackgroundSource="Digger"
+                    MaterialOpacity="0.45"
+                    TintColor="Black"
+                    TintOpacity="1" />
+            </ExperimentalAcrylicBorder.Material>
+        </ExperimentalAcrylicBorder>
+        <Grid
+            Margin="15,35"
+            ColumnDefinitions="4*, 3*"
+            ShowGridLines="True">
+            <Grid
+                Grid.Column="0"
+                Margin="10"
+                ColumnDefinitions="*"
+                RowDefinitions="5*,2*">
+                <Image
+                    Name="PdfPreview"
+                    Grid.Row="0"
+                    Source="{Binding CurrentImage}"
+                    Stretch="Uniform" />
+                <Grid
+                    Grid.Row="1"
+                    Margin="10"
+                    ColumnDefinitions="*,150,*"
+                    RowDefinitions="*">
+                    <Image
+                        Name="PdfPreviousPage"
+                        Grid.Column="0"
+                        Source="{Binding PreviousImage}"
+                        Stretch="Uniform" />
+                    <TextBlock
+                        Name="PdfPages"
+                        Grid.Column="1"
+                        Margin="15,5"
+                        HorizontalAlignment="Center"
+                        VerticalAlignment="Center"
+                        FontSize="20" />
+                    <Image
+                        Name="PdfNextPage"
+                        Grid.Column="2"
+                        Source="{Binding NextImage}"
+                        Stretch="Uniform" />
+                </Grid>
+            </Grid>
+            <Grid
+                Grid.Column="1"
+                Margin="10"
+                ColumnDefinitions="*"
+                RowDefinitions="1*,4*">
+                <DockPanel
+                    Grid.Row="0"
+                    HorizontalAlignment="Stretch"
+                    DataContext="{Binding SlideTimer}">
+                    <TextBlock
+                        Name="Timer"
+                        Margin="15"
+                        HorizontalAlignment="Center"
+                        VerticalAlignment="Center"
+                        FontSize="50"
+                        FontStretch="Expanded"
+                        Foreground="{Binding TimerBrush}"
+                        Text="{Binding CurrentTime}"
+                        TextAlignment="Center" />
+                </DockPanel>
+                <md:MarkdownScrollViewer Grid.Row="1" Markdown="{Binding CurrentSlideNoteText}" />
+            </Grid>
+        </Grid>
+    </Panel>
+</Window>

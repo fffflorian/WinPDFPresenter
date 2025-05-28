@@ -1,0 +1,71 @@
+﻿{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "WinPDFPresenter",
+  "description": "Notes for PDF-presentations, to be used with WinPDFP.",
+  "type": "object",
+  "properties": {
+    "duration": {
+      "description": "Duration of the presentation, in minutes",
+      "type": "integer",
+      "minimum": 1
+    },
+    "lastMinutes": {
+      "description": "Number of last minutes when the timer color changes",
+      "type": "integer",
+      "minimum": 1,
+      "default": 5
+    },
+    "noteFontSize": {
+      "description": "Font size used to display slide notes",
+      "type": "integer",
+      "minimum": 1,
+      "default": 20
+    },
+    "slides": {
+      "description": "Array of pages; only user-modified ones need to be listed",
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/slide"
+      },
+      "minItems": 0,
+      "uniqueItems": true
+    }
+  },
+  "required": [],
+  "additionalProperties": false,
+  "$defs":{
+    "slide": {
+      "description": "Slide Metadata",
+      "type": "object",
+      "properties": {
+        "idx": {
+          "description": "0-based PDF page index",
+          "type": "integer",
+          "minimum": 0
+        },
+        "label": {
+          "description": "Logical Page Number",
+          "type": "string"
+        },
+        "overlay": {
+          "description": "Overlay index having the same label, 0-based",
+          "type": "integer",
+          "minimum": 0
+        },
+        "hidden": {
+          "description": "Flag indicating the page should normally be skipped",
+          "type": "boolean",
+          "default": false,
+          "$comment": "Currently ignored; might be in a future version."
+        },
+        "note": {
+          "description": "User notes in Markdown",
+          "type": "string",
+          "contentMediaType": "text/markdown"
+        }
+      },
+      "required": ["idx", "overlay", "note"],
+      "additionalProperties": false
+    }
+  }
+}

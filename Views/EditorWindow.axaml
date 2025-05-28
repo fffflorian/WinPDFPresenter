@@ -1,0 +1,193 @@
+﻿<Window
+    x:Class="WinPDFPresenter.Views.EditorWindow"
+    xmlns="https://github.com/avaloniaui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:AvaloniaEdit="clr-namespace:AvaloniaEdit;assembly=AvaloniaEdit"
+    xmlns:bhv="using:WinPDFPresenter.Behaviours"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:editing="using:AvaloniaEdit.Editing"
+    xmlns:i="clr-namespace:Avalonia.Xaml.Interactivity;assembly=Avalonia.Xaml.Interactivity"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:md="https://github.com/whistyun/Markdown.Avalonia"
+    xmlns:vm="using:WinPDFPresenter.ViewModels"
+    Title="WinPDFPresenter"
+    d:DesignHeight="720"
+    d:DesignWidth="1080"
+    x:DataType="vm:PresentationViewModel"
+    Background="Transparent"
+    ExtendClientAreaToDecorationsHint="True"
+    Icon="/Assets/avalonia-logo.ico"
+    TransparencyLevelHint="AcrylicBlur"
+    mc:Ignorable="d">
+    <Design.DataContext>
+        <vm:PresentationViewModel />
+    </Design.DataContext>
+    <Panel>
+        <ExperimentalAcrylicBorder IsHitTestVisible="False">
+            <ExperimentalAcrylicBorder.Material>
+                <ExperimentalAcrylicMaterial
+                    BackgroundSource="Digger"
+                    MaterialOpacity="0.45"
+                    TintColor="Black"
+                    TintOpacity="1" />
+            </ExperimentalAcrylicBorder.Material>
+        </ExperimentalAcrylicBorder>
+        <Grid Margin="15,35" ColumnDefinitions="4*, 3*">
+            <Grid
+                Grid.Column="0"
+                Margin="10"
+                ColumnDefinitions="*"
+                RowDefinitions="5*,2*">
+                <Image
+                    Name="PdfPreview"
+                    Grid.Row="0"
+                    Source="{Binding CurrentImage}"
+                    Stretch="Uniform" />
+                <Grid
+                    Grid.Row="1"
+                    Margin="10"
+                    ColumnDefinitions="*,150,*"
+                    RowDefinitions="*,40">
+                    <Image
+                        Name="PdfPreviousPage"
+                        Grid.Row="0"
+                        Grid.Column="0"
+                        Source="{Binding PreviousImage}"
+                        Stretch="Uniform" />
+                    <Grid
+                        Grid.Row="0"
+                        Grid.Column="1"
+                        Margin="0,5"
+                        ColumnDefinitions="140"
+                        RowDefinitions="100,125"
+                        ShowGridLines="True">
+                        <TextBlock
+                            Name="PdfPages"
+                            Grid.Row="0"
+                            Margin="0,15"
+                            HorizontalAlignment="Center"
+                            VerticalAlignment="Center"
+                            FontSize="20"
+                            TextAlignment="Center" />
+                        <StackPanel
+                            Grid.Row="1"
+                            Margin="0,15"
+                            Orientation="Horizontal">
+                            <Button
+                                Name="PreviousSlideButton"
+                                Width="50"
+                                Height="50"
+                                Margin="5"
+                                HorizontalAlignment="Center"
+                                VerticalAlignment="Center"
+                                Background="SpringGreen"
+                                Click="PreviousSlideButton_OnClick">
+                                <Image
+                                    Width="25"
+                                    Height="25"
+                                    HorizontalAlignment="Center"
+                                    VerticalAlignment="Center"
+                                    Source="avares://WinPDFPresenter/Assets/backward-solid.png" />
+                            </Button>
+                            <Border Width="25" Background="Transparent" />
+                            <Button
+                                Name="NextSlideButton"
+                                Width="50"
+                                Height="50"
+                                Margin="5"
+                                HorizontalAlignment="Center"
+                                VerticalAlignment="Center"
+                                Background="SpringGreen"
+                                Click="NextSlideButton_OnClick">
+                                <Image
+                                    Width="25"
+                                    Height="25"
+                                    HorizontalAlignment="Center"
+                                    VerticalAlignment="Center"
+                                    Source="avares://WinPDFPresenter/Assets/forward-solid.png" />
+                            </Button>
+                        </StackPanel>
+                    </Grid>
+                    <Image
+                        Name="PdfNextPage"
+                        Grid.Row="0"
+                        Grid.Column="2"
+                        Source="{Binding NextImage}"
+                        Stretch="Uniform" />
+                    <Button
+                        Grid.Row="1"
+                        Grid.Column="0"
+                        Grid.ColumnSpan="3"
+                        Height="30"
+                        Margin="5"
+                        HorizontalAlignment="Center"
+                        VerticalAlignment="Center"
+                        Background="SkyBlue"
+                        Click="SaveNotes">
+                        <TextBlock
+                            HorizontalAlignment="Center"
+                            VerticalAlignment="Center"
+                            FontSize="14"
+                            FontWeight="Bold"
+                            Foreground="Black">
+                            Export to .pdfnotes file.
+                        </TextBlock>
+                    </Button>
+                </Grid>
+            </Grid>
+            <Grid
+                Grid.Column="1"
+                Margin="10"
+                ColumnDefinitions="*"
+                RowDefinitions="*,*"
+                ShowGridLines="True">
+                <md:MarkdownScrollViewer Grid.Row="0" Markdown="{Binding CurrentSlideNoteText}" />
+                <AvaloniaEdit:TextEditor
+                    Name="NotesEditor"
+                    Grid.Row="1"
+                    Background="Transparent"
+                    FontFamily="Cascadia Code,Consolas,Menlo,Monospace"
+                    FontSize="14"
+                    FontWeight="Light"
+                    HorizontalScrollBarVisibility="Hidden"
+                    ShowLineNumbers="True"
+                    VerticalScrollBarVisibility="Visible"
+                    Watermark="Start typing your notes in MARKDOWN">
+                    <i:Interaction.Behaviors>
+                        <bhv:DocumentTextBindingBehaviour Text="{Binding CurrentSlideNoteText, Mode=TwoWay}" />
+                    </i:Interaction.Behaviors>
+                    <AvaloniaEdit:TextEditor.ContextFlyout>
+                        <MenuFlyout>
+                            <MenuItem
+                                Command="{Binding CopyMouseCommand}"
+                                CommandParameter="{Binding #NotesEditor.TextArea}"
+                                Header="Copy"
+                                InputGesture="ctrl+C" />
+                            <MenuItem
+                                Command="{Binding CutMouseCommand}"
+                                CommandParameter="{Binding #NotesEditor.TextArea}"
+                                Header="Cut"
+                                InputGesture="ctrl+X" />
+                            <MenuItem
+                                Command="{Binding PasteMouseCommand}"
+                                CommandParameter="{Binding #NotesEditor.TextArea}"
+                                Header="Paste"
+                                InputGesture="ctrl+V" />
+                            <MenuItem Header="-" />
+                            <MenuItem
+                                Command="{Binding SelectAllMouseCommand}"
+                                CommandParameter="{Binding #NotesEditor.TextArea}"
+                                Header="Select All"
+                                InputGesture="ctrl+A" />
+                        </MenuFlyout>
+                    </AvaloniaEdit:TextEditor.ContextFlyout>
+                    <AvaloniaEdit:TextEditor.Styles>
+                        <Style Selector="editing|LineNumberMargin">
+                            <Setter Property="MinWidthInDigits" Value="3" />
+                        </Style>
+                    </AvaloniaEdit:TextEditor.Styles>
+                </AvaloniaEdit:TextEditor>
+            </Grid>
+        </Grid>
+    </Panel>
+</Window>
