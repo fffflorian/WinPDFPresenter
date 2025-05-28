@@ -47,6 +47,9 @@ public partial class MainWindow : Window {
 
 	private void MainOnKeyDown(object? sender, KeyEventArgs e) {
 		switch (e.Key) {
+			case Key.F11:
+				_presentationWindow.ToggleFullScreen();
+				break;
 			case Key.Right:
 			case Key.D:
 				_viewModel.NextPage();

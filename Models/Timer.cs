@@ -40,6 +40,10 @@ public class Timer : INotifyPropertyChanged {
 	public void RestartTimer() {
 		PauseTimer();
 		_elapsedTime = 0;
+		TimerBrush   = Brushes.White;
+		CurrentTime  = $"{TimeSpan.FromSeconds(_durationInSeconds).ToString(_timeFormat)}";
+		PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(CurrentTime)));
+		PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(TimerBrush)));
 	}
 
 	private void TimerOnTick(object? sender, EventArgs e) {
@@ -56,9 +60,9 @@ public class Timer : INotifyPropertyChanged {
 		}
 		if (_elapsedTime >= _durationInSeconds - _lastSeconds) {
 			TimerBrush  = _warningBrush;
+			PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(TimerBrush)));
 		}
 		CurrentTime = $"{TimeSpan.FromSeconds(currentTime).ToString(_timeFormat)}";
 		PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(CurrentTime)));
-		PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(TimerBrush)));
 	}
 }

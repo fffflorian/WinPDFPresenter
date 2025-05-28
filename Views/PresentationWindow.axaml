@@ -7,20 +7,10 @@
     Title="Presentation"
     d:DesignHeight="720"
     d:DesignWidth="1080"
-    Background="Transparent"
+    Background="Black"
     ExtendClientAreaToDecorationsHint="True"
-    TransparencyLevelHint="AcrylicBlur"
     mc:Ignorable="d">
     <Panel>
-        <ExperimentalAcrylicBorder IsHitTestVisible="False">
-            <ExperimentalAcrylicBorder.Material>
-                <ExperimentalAcrylicMaterial
-                    BackgroundSource="Digger"
-                    MaterialOpacity="0.45"
-                    TintColor="Black"
-                    TintOpacity="1" />
-            </ExperimentalAcrylicBorder.Material>
-        </ExperimentalAcrylicBorder>
         <Image Name="PdfViewer" Stretch="Uniform" />
     </Panel>
 </Window>
