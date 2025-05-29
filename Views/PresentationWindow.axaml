@@ -9,6 +9,7 @@
     d:DesignWidth="1080"
     Background="Black"
     ExtendClientAreaToDecorationsHint="True"
+    Icon="/Assets/presenter-logo.ico"
     mc:Ignorable="d">
     <Panel>
         <Image Name="PdfViewer" Stretch="Uniform" />

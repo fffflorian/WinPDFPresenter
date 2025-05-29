@@ -10,7 +10,11 @@
     d:DesignHeight="200"
     d:DesignWidth="400"
     x:DataType="viewModels:PdfToImageViewModel"
+    Background="Transparent"
     CanResize="False"
+    ExtendClientAreaToDecorationsHint="True"
+    Icon="/Assets/presenter-logo.ico"
+    TransparencyLevelHint="AcrylicBlur"
     WindowStartupLocation="CenterScreen"
     mc:Ignorable="d">
     <Design.DataContext>
@@ -21,7 +25,7 @@
             <ExperimentalAcrylicBorder.Material>
                 <ExperimentalAcrylicMaterial
                     BackgroundSource="Digger"
-                    MaterialOpacity="0.45"
+                    MaterialOpacity="0.05"
                     TintColor="Black"
                     TintOpacity="1" />
             </ExperimentalAcrylicBorder.Material>

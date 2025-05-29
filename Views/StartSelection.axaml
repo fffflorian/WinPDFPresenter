@@ -11,7 +11,7 @@
     x:DataType="vm:StartSelectionViewModel"
     Background="Transparent"
     ExtendClientAreaToDecorationsHint="True"
-    Icon="/Assets/avalonia-logo.ico"
+    Icon="/Assets/presenter-logo.ico"
     TransparencyLevelHint="AcrylicBlur"
     mc:Ignorable="d">
     <Design.DataContext>
@@ -22,7 +22,7 @@
             <ExperimentalAcrylicBorder.Material>
                 <ExperimentalAcrylicMaterial
                     BackgroundSource="Digger"
-                    MaterialOpacity="0.45"
+                    MaterialOpacity="0.15"
                     TintColor="Black"
                     TintOpacity="1" />
             </ExperimentalAcrylicBorder.Material>

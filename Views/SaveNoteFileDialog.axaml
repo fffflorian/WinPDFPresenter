@@ -11,6 +11,10 @@
     d:DesignWidth="800"
     x:DataType="viewModels:SaveNoteFileViewModel"
     CanResize="False"
+    Background="Transparent"
+    ExtendClientAreaToDecorationsHint="True"
+    TransparencyLevelHint="AcrylicBlur"
+    Icon="/Assets/presenter-logo.ico"
     WindowStartupLocation="CenterScreen"
     mc:Ignorable="d">
     <Design.DataContext>
@@ -21,7 +25,7 @@
             <ExperimentalAcrylicBorder.Material>
                 <ExperimentalAcrylicMaterial
                     BackgroundSource="Digger"
-                    MaterialOpacity="0.45"
+                    MaterialOpacity="0.05"
                     TintColor="Black"
                     TintOpacity="1" />
             </ExperimentalAcrylicBorder.Material>

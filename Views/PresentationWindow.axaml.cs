@@ -1,4 +1,5 @@
 ﻿using Avalonia.Controls;
+using Avalonia.Input;
 using Avalonia.Media;
 
 namespace WinPDFPresenter.Views;
@@ -10,6 +11,9 @@ public partial class PresentationWindow : Window {
 	
 	public PresentationWindow() {
 		InitializeComponent();
+		KeyDown += (_, args) => {
+			if (args.Key == Key.F11) ToggleFullScreen();
+		};
 	}
 
 	public void SetImageShown(IImage image) {
