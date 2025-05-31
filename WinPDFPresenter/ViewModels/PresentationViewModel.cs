@@ -17,7 +17,9 @@ public class PresentationViewModel(PdfModelProperties props, int? noteFontSize, 
 	private                 int    _noteFontSize         = noteFontSize ?? 20;
 	private                 IImage _previousImage        = new Bitmap(AssetLoader.Open(BlackImagePath));
 	private                 IImage _nextImage            = new Bitmap(AssetLoader.Open(BlackImagePath));
-	
+
+
+	public static readonly IImage BlackImage = new Bitmap(AssetLoader.Open(BlackImagePath));
 	public int                Duration      { get; } = duration ?? 25;
 	public int                LastMinutes   { get; } = lastMinutes ?? 5;
 	public PdfModelProperties PdfProperties { get; } = props;
@@ -43,6 +45,7 @@ public class PresentationViewModel(PdfModelProperties props, int? noteFontSize, 
 		get => _nextImage;
 		set => this.RaiseAndSetIfChanged(ref _nextImage, value);
 	}
+
 	public string CurrentSlideNoteText {
 		get => _currentSlideNoteText;
 		set => this.RaiseAndSetIfChanged(ref _currentSlideNoteText, value);
@@ -52,7 +55,7 @@ public class PresentationViewModel(PdfModelProperties props, int? noteFontSize, 
 	
 	public string CurrentSlideText =>
 		$"Slide {PdfProperties.Slides[CurrentPage].LogicalPageNumber} of {PdfProperties.LogicalPageCount}";
-	public string CurrentOverlayText => PdfProperties.GetOverlayText(CurrentPage) ?? "";
+	public string CurrentOverlayText => "Overlay " + PdfProperties.GetOverlayText(CurrentPage);
 	
 	public void LoadImages() {
 		PreviousImage = (CurrentPage == 0)

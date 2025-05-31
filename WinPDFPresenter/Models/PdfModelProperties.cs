@@ -9,7 +9,7 @@ public class PdfModelProperties {
 	public int              LogicalPageCount     { get; set; } 
 	public string           FileNameBeforeNumber { get; init; } = "";
 	public string           FileExtensionEnd     { get; init; } = "";
-	public List<SlideModel> Slides               { get; }       = new ();
+	public List<SlideModel> Slides               { get; }       = [];
 
 	public string? GetFileNameFromPage(int pageNumber) {
 		if (pageNumber < 0 || pageNumber > PageCount) return null;
@@ -30,6 +30,6 @@ public class PdfModelProperties {
 			else
 				break;
 		}
-		return $"({Slides[pageNumber].OverlayNumber + 1} / {(maxOverlay + 1)})";
+		return $"{Slides[pageNumber].OverlayNumber + 1} / {(maxOverlay + 1)}";
 	}
 }

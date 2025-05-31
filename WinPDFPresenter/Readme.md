@@ -22,8 +22,10 @@ There are two points of interest here:
 |     **Key**     | **Action (ONLY IN PRESENTATION MODE)**        |     **Windows**     |
 |:---------------:|-----------------------------------------------|:-------------------:|
 |       F11       | Make presentation full-screen                 |   **All windows**   |
+|       F5        | Start Presentation (full-screen + Timer)      | Only Presenter View |
 |     Shift+S     | Start Timer                                   | Only Presenter View |
 |     Shift+P     | Pause Timer                                   | Only Presenter View |
 |     Shift+R     | Reset Timer (does not start the timer again!) | Only Presenter View |
-| D / Right Arrow | Go to next slide                              | Only Presenter View |
-| A / Left Arrow  | Go to previous slide                          | Only Presenter View |
+|        B        | Make presentation view go blank               | Only Presenter View |
+| D / -> / PgUp   | Go to next slide                              | Only Presenter View |
+| A / <- / PgDown | Go to previous slide                          | Only Presenter View |

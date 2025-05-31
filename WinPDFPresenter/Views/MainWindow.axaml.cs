@@ -13,6 +13,8 @@ public partial class MainWindow : Window {
 	
 	private readonly PresentationViewModel? _viewModel;
 	private readonly PresentationWindow?  _presentationWindow;
+	private bool _isDark = false;
+	private readonly string _isDarkString = "(currently black)";
 
 	public MainWindow() {
 		// This is a dummy constructor; never use this!!!
@@ -27,7 +29,8 @@ public partial class MainWindow : Window {
 		_presentationWindow =  new PresentationWindow();
 		_presentationWindow.Show();
 		_presentationWindow.SetImageShown(viewModel.CurrentImage!);
-		PdfPages.Text =  viewModel.CurrentSlideText;
+		PdfPages.Text =  viewModel.CurrentSlideText + "\n" +
+		                 viewModel.CurrentOverlayText;
 		DataContext   =  viewModel;
 		_viewModel    =  viewModel;
 		if (notes != null) {
@@ -42,12 +45,20 @@ public partial class MainWindow : Window {
 
 	private void RefreshSlides() {
 		_viewModel!.LoadImages();
-		_presentationWindow!.SetImageShown(_viewModel.CurrentImage!);
-		PdfPages.Text                   = _viewModel.CurrentSlideText;
+		if (!_isDark) _presentationWindow!.SetImageShown(_viewModel.CurrentImage!);
+		PdfPages.Text                   = _viewModel.CurrentSlideText + "\n" +
+		                                  _viewModel.CurrentOverlayText + (_isDark ? "\n" + _isDarkString : "");
 		PdfPreview.Source               = _viewModel.CurrentImage;
 		PdfPreviousPage.Source          = _viewModel.PreviousImage;
 		PdfNextPage.Source              = _viewModel.NextImage;
 		_viewModel.CurrentSlideNoteText = _viewModel.GetCurrentNoteText();
+	}
+
+	private void ToggleDark() {
+		_isDark = !_isDark;
+		_presentationWindow!.SetImageShown(_isDark ? PresentationViewModel.BlackImage : _viewModel!.CurrentImage!);
+		PdfPages.Text = _viewModel!.CurrentSlideText + "\n" +
+		                _viewModel.CurrentOverlayText + (_isDark ? "\n" + _isDarkString : "");
 	}
 
 	private void MainOnKeyDown(object? sender, KeyEventArgs e) {
@@ -56,14 +67,19 @@ public partial class MainWindow : Window {
 				_presentationWindow!.ToggleFullScreen();
 				break;
 			case Key.Right:
+			case Key.PageDown:
 			case Key.D:
 				_viewModel!.NextPage();
 				RefreshSlides();
 				break;
 			case Key.Left:
+			case Key.PageUp:
 			case Key.A:
 				_viewModel!.PreviousPage();
 				RefreshSlides();
+				break;
+			case Key.B:
+				ToggleDark();
 				break;
 			case Key.P when e.KeyModifiers.HasFlag(KeyModifiers.Shift):
 				_viewModel!.SlideTimer.PauseTimer();
@@ -72,6 +88,10 @@ public partial class MainWindow : Window {
 				_viewModel!.SlideTimer.RestartTimer();
 				break;
 			case Key.S when e.KeyModifiers.HasFlag(KeyModifiers.Shift):
+				_viewModel!.SlideTimer.StartTimer();
+				break;
+			case Key.F5:
+				if (!_presentationWindow!.IsFullScreen()) _presentationWindow.ToggleFullScreen();
 				_viewModel!.SlideTimer.StartTimer();
 				break;
 			default: break;

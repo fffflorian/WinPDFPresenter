@@ -47,7 +47,7 @@
                 <Grid
                     Grid.Row="1"
                     Margin="10"
-                    ColumnDefinitions="*,150,*"
+                    ColumnDefinitions="*,200,*"
                     RowDefinitions="*">
                     <Image
                         Name="PdfPreviousPage"
@@ -60,7 +60,8 @@
                         Margin="15,5"
                         HorizontalAlignment="Center"
                         VerticalAlignment="Center"
-                        FontSize="20" />
+                        FontSize="20"
+                        TextAlignment="Center" />
                     <Image
                         Name="PdfNextPage"
                         Grid.Column="2"

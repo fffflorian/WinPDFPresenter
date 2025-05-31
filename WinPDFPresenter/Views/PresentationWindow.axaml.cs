@@ -16,6 +16,11 @@ public partial class PresentationWindow : Window {
 		};
 	}
 
+	public bool IsFullScreen() {
+		return _isFullScreen;
+
+	}
+
 	public void SetImageShown(IImage image) {
 		PdfViewer.Source = image;
 	}
