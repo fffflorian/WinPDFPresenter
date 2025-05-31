@@ -33,5 +33,5 @@ public partial class WinPdfPresenter {
 	/// </summary>
 	[Newtonsoft.Json.JsonProperty("slides", Required = Newtonsoft.Json.Required.DisallowNull,
 		NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-	public System.Collections.Generic.ICollection<SlideJsonModel> Slides { get; set; }
+	public System.Collections.Generic.ICollection<SlideJsonModel> Slides { get; set; } = [];
 }

@@ -11,9 +11,14 @@ namespace WinPDFPresenter.Views;
 
 public partial class MainWindow : Window {
 	
-	private readonly PresentationViewModel _viewModel;
-	private readonly PresentationWindow  _presentationWindow;
-	
+	private readonly PresentationViewModel? _viewModel;
+	private readonly PresentationWindow?  _presentationWindow;
+
+	public MainWindow() {
+		// This is a dummy constructor; never use this!!!
+		// Only used to fix warning AVLN3001.
+	}
+
 	public MainWindow(PresentationViewModel viewModel, ICollection<SlideJsonModel>? notes = null) {
 		InitializeComponent();
 		#if DEBUG
@@ -36,8 +41,8 @@ public partial class MainWindow : Window {
 	}
 
 	private void RefreshSlides() {
-		_viewModel.LoadImages();
-		_presentationWindow.SetImageShown(_viewModel.CurrentImage!);
+		_viewModel!.LoadImages();
+		_presentationWindow!.SetImageShown(_viewModel.CurrentImage!);
 		PdfPages.Text                   = _viewModel.CurrentSlideText;
 		PdfPreview.Source               = _viewModel.CurrentImage;
 		PdfPreviousPage.Source          = _viewModel.PreviousImage;
@@ -48,26 +53,26 @@ public partial class MainWindow : Window {
 	private void MainOnKeyDown(object? sender, KeyEventArgs e) {
 		switch (e.Key) {
 			case Key.F11:
-				_presentationWindow.ToggleFullScreen();
+				_presentationWindow!.ToggleFullScreen();
 				break;
 			case Key.Right:
 			case Key.D:
-				_viewModel.NextPage();
+				_viewModel!.NextPage();
 				RefreshSlides();
 				break;
 			case Key.Left:
 			case Key.A:
-				_viewModel.PreviousPage();
+				_viewModel!.PreviousPage();
 				RefreshSlides();
 				break;
 			case Key.P when e.KeyModifiers.HasFlag(KeyModifiers.Shift):
-				_viewModel.SlideTimer.PauseTimer();
+				_viewModel!.SlideTimer.PauseTimer();
 				break;
 			case Key.R when e.KeyModifiers.HasFlag(KeyModifiers.Shift):
-				_viewModel.SlideTimer.RestartTimer();
+				_viewModel!.SlideTimer.RestartTimer();
 				break;
 			case Key.S when e.KeyModifiers.HasFlag(KeyModifiers.Shift):
-				_viewModel.SlideTimer.StartTimer();
+				_viewModel!.SlideTimer.StartTimer();
 				break;
 			default: break;
 		}

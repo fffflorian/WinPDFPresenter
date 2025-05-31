@@ -10,11 +10,11 @@
     d:DesignHeight="450"
     d:DesignWidth="800"
     x:DataType="viewModels:SaveNoteFileViewModel"
-    CanResize="False"
     Background="Transparent"
+    CanResize="False"
     ExtendClientAreaToDecorationsHint="True"
-    TransparencyLevelHint="AcrylicBlur"
     Icon="/Assets/presenter-logo.ico"
+    TransparencyLevelHint="AcrylicBlur"
     WindowStartupLocation="CenterScreen"
     mc:Ignorable="d">
     <Design.DataContext>

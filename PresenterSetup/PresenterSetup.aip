@@ -1,0 +1,916 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DOCUMENT Type="Advanced Installer" CreateVersion="22.7" version="22.7" Modules="simple" RootPath="." Language="en" Id="{E8815E8D-6768-409E-A402-51D85AB2D5EA}">
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiPropsComponent">
+    <ROW Property="AI_BITMAP_DISPLAY_MODE" Value="0"/>
+    <ROW Property="AI_PREDEF_LCONDS_PROPS" Value="AI_DETECTED_ADMIN_USER;AI_DETECTED_DOTNET_CORE_VERSION;AI_DETECTED_DOTNET_VERSION"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Avalonia.Base.dll" Value="..\WinPDFPresenter\bin\Release\net9.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Avalonia.Controls.dll" Value="..\WinPDFPresenter\bin\Release\net9.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Avalonia.DesignerSupport.dll" Value="..\WinPDFPresenter\bin\Release\net9.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Avalonia.Desktop.dll" Value="..\WinPDFPresenter\bin\Release\net9.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Avalonia.Dialogs.dll" Value="..\WinPDFPresenter\bin\Release\net9.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Avalonia.Fonts.Inter.dll" Value="..\WinPDFPresenter\bin\Release\net9.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Avalonia.FreeDesktop.dll" Value="..\WinPDFPresenter\bin\Release\net9.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Avalonia.Markup.Xaml.dll" Value="..\WinPDFPresenter\bin\Release\net9.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Avalonia.Markup.dll" Value="..\WinPDFPresenter\bin\Release\net9.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Avalonia.Metal.dll" Value="..\WinPDFPresenter\bin\Release\net9.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Avalonia.MicroCom.dll" Value="..\WinPDFPresenter\bin\Release\net9.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Avalonia.Native.dll" Value="..\WinPDFPresenter\bin\Release\net9.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Avalonia.OpenGL.dll" Value="..\WinPDFPresenter\bin\Release\net9.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Avalonia.ReactiveUI.dll" Value="..\WinPDFPresenter\bin\Release\net9.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Avalonia.Remote.Protocol.dll" Value="..\WinPDFPresenter\bin\Release\net9.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Avalonia.Skia.dll" Value="..\WinPDFPresenter\bin\Release\net9.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Avalonia.Svg.dll" Value="..\WinPDFPresenter\bin\Release\net9.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Avalonia.Themes.Fluent.dll" Value="..\WinPDFPresenter\bin\Release\net9.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Avalonia.Vulkan.dll" Value="..\WinPDFPresenter\bin\Release\net9.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Avalonia.Win32.Automation.dll" Value="..\WinPDFPresenter\bin\Release\net9.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Avalonia.Win32.dll" Value="..\WinPDFPresenter\bin\Release\net9.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Avalonia.X11.dll" Value="..\WinPDFPresenter\bin\Release\net9.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Avalonia.Xaml.Interactions.dll" Value="..\WinPDFPresenter\bin\Release\net9.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Avalonia.Xaml.Interactivity.dll" Value="..\WinPDFPresenter\bin\Release\net9.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Avalonia.dll" Value="..\WinPDFPresenter\bin\Release\net9.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_AvaloniaEdit.TextMate.Grammars.dll" Value="..\WinPDFPresenter\bin\Release\net9.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_AvaloniaEdit.TextMate.dll" Value="..\WinPDFPresenter\bin\Release\net9.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_AvaloniaEdit.dll" Value="..\WinPDFPresenter\bin\Release\net9.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_ColorDocument.Avalonia.dll" Value="..\WinPDFPresenter\bin\Release\net9.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_ColorTextBlock.Avalonia.dll" Value="..\WinPDFPresenter\bin\Release\net9.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_CommunityToolkit.Mvvm.dll" Value="..\WinPDFPresenter\bin\Release\net9.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_DynamicData.dll" Value="..\WinPDFPresenter\bin\Release\net9.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_ExCSS.dll" Value="..\WinPDFPresenter\bin\Release\net9.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Fizzler.dll" Value="..\WinPDFPresenter\bin\Release\net9.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_HarfBuzzSharp.dll" Value="..\WinPDFPresenter\bin\Release\net9.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_HtmlAgilityPack.dll" Value="..\WinPDFPresenter\bin\Release\net9.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Markdown.Avalonia.Full.dll" Value="..\WinPDFPresenter\bin\Release\net9.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Markdown.Avalonia.Html.dll" Value="..\WinPDFPresenter\bin\Release\net9.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Markdown.Avalonia.Svg.dll" Value="..\WinPDFPresenter\bin\Release\net9.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Markdown.Avalonia.SyntaxHigh.dll" Value="..\WinPDFPresenter\bin\Release\net9.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Markdown.Avalonia.dll" Value="..\WinPDFPresenter\bin\Release\net9.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_MicroCom.Runtime.dll" Value="..\WinPDFPresenter\bin\Release\net9.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.Extensions.DependencyInjection.Abstractions.dll" Value="..\WinPDFPresenter\bin\Release\net9.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.Extensions.DependencyInjection.dll" Value="..\WinPDFPresenter\bin\Release\net9.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.Extensions.Logging.Abstractions.dll" Value="..\WinPDFPresenter\bin\Release\net9.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.Extensions.Logging.dll" Value="..\WinPDFPresenter\bin\Release\net9.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.Extensions.Options.dll" Value="..\WinPDFPresenter\bin\Release\net9.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.Extensions.Primitives.dll" Value="..\WinPDFPresenter\bin\Release\net9.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Newtonsoft.Json.dll" Value="..\WinPDFPresenter\bin\Release\net9.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Onigwrap.dll" Value="..\WinPDFPresenter\bin\Release\net9.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_PDFtoImage.dll" Value="..\WinPDFPresenter\bin\Release\net9.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_PdfSharp.BarCodes.dll" Value="..\WinPDFPresenter\bin\Release\net9.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_PdfSharp.Charting.dll" Value="..\WinPDFPresenter\bin\Release\net9.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_PdfSharp.Cryptography.dll" Value="..\WinPDFPresenter\bin\Release\net9.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_PdfSharp.Quality.dll" Value="..\WinPDFPresenter\bin\Release\net9.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_PdfSharp.Shared.dll" Value="..\WinPDFPresenter\bin\Release\net9.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_PdfSharp.Snippets.dll" Value="..\WinPDFPresenter\bin\Release\net9.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_PdfSharp.System.dll" Value="..\WinPDFPresenter\bin\Release\net9.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_PdfSharp.WPFonts.dll" Value="..\WinPDFPresenter\bin\Release\net9.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_PdfSharp.dll" Value="..\WinPDFPresenter\bin\Release\net9.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_ReactiveUI.dll" Value="..\WinPDFPresenter\bin\Release\net9.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_ShimSkiaSharp.dll" Value="..\WinPDFPresenter\bin\Release\net9.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_SkiaSharp.dll" Value="..\WinPDFPresenter\bin\Release\net9.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Splat.dll" Value="..\WinPDFPresenter\bin\Release\net9.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Svg.Custom.dll" Value="..\WinPDFPresenter\bin\Release\net9.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Svg.Model.dll" Value="..\WinPDFPresenter\bin\Release\net9.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_System.Reactive.dll" Value="..\WinPDFPresenter\bin\Release\net9.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_System.Security.Cryptography.Pkcs.dll" Value="..\WinPDFPresenter\bin\Release\net9.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_System.Security.Cryptography.Pkcs.dll_1" Value="..\WinPDFPresenter\bin\Release\net9.0\publish\runtimes\win\lib\net8.0"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_TextMateSharp.Grammars.dll" Value="..\WinPDFPresenter\bin\Release\net9.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_TextMateSharp.dll" Value="..\WinPDFPresenter\bin\Release\net9.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Tmds.DBus.Protocol.dll" Value="..\WinPDFPresenter\bin\Release\net9.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_WinPDFPresenter.deps.json" Value="..\WinPDFPresenter\bin\Release\net9.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_WinPDFPresenter.dll" Value="..\WinPDFPresenter\bin\Release\net9.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_WinPDFPresenter.exe" Value="..\WinPDFPresenter\bin\Release\net9.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_WinPDFPresenter.runtimeconfig.json" Value="..\WinPDFPresenter\bin\Release\net9.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_av_libglesv2.dll" Value="..\WinPDFPresenter\bin\Release\net9.0\publish\runtimes\win-arm64\native"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_av_libglesv2.dll_1" Value="..\WinPDFPresenter\bin\Release\net9.0\publish\runtimes\win-x64\native"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_av_libglesv2.dll_2" Value="..\WinPDFPresenter\bin\Release\net9.0\publish\runtimes\win-x86\native"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_libAvaloniaNative.dylib" Value="..\WinPDFPresenter\bin\Release\net9.0\publish\runtimes\osx\native"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_libHarfBuzzSharp.dll" Value="..\WinPDFPresenter\bin\Release\net9.0\publish\runtimes\win-arm64\native"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_libHarfBuzzSharp.dll_1" Value="..\WinPDFPresenter\bin\Release\net9.0\publish\runtimes\win-x64\native"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_libHarfBuzzSharp.dll_2" Value="..\WinPDFPresenter\bin\Release\net9.0\publish\runtimes\win-x86\native"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_libHarfBuzzSharp.dylib" Value="..\WinPDFPresenter\bin\Release\net9.0\publish\runtimes\osx\native"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_libHarfBuzzSharp.so" Value="..\WinPDFPresenter\bin\Release\net9.0\publish\runtimes\linux-arm\native"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_libHarfBuzzSharp.so_1" Value="..\WinPDFPresenter\bin\Release\net9.0\publish\runtimes\linux-arm64\native"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_libHarfBuzzSharp.so_2" Value="..\WinPDFPresenter\bin\Release\net9.0\publish\runtimes\linux-musl-x64\native"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_libHarfBuzzSharp.so_3" Value="..\WinPDFPresenter\bin\Release\net9.0\publish\runtimes\linux-x64\native"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_libSkiaSharp.dll" Value="..\WinPDFPresenter\bin\Release\net9.0\publish\runtimes\win-arm64\native"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_libSkiaSharp.dll_1" Value="..\WinPDFPresenter\bin\Release\net9.0\publish\runtimes\win-x64\native"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_libSkiaSharp.dll_2" Value="..\WinPDFPresenter\bin\Release\net9.0\publish\runtimes\win-x86\native"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_libSkiaSharp.dylib" Value="..\WinPDFPresenter\bin\Release\net9.0\publish\runtimes\osx\native"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_libSkiaSharp.so" Value="..\WinPDFPresenter\bin\Release\net9.0\publish\runtimes\linux-arm\native"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_libSkiaSharp.so_1" Value="..\WinPDFPresenter\bin\Release\net9.0\publish\runtimes\linux-arm64\native"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_libSkiaSharp.so_10" Value="..\WinPDFPresenter\bin\Release\net9.0\publish\runtimes\linux-x86\native"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_libSkiaSharp.so_2" Value="..\WinPDFPresenter\bin\Release\net9.0\publish\runtimes\linux-loongarch64\native"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_libSkiaSharp.so_3" Value="..\WinPDFPresenter\bin\Release\net9.0\publish\runtimes\linux-musl-arm\native"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_libSkiaSharp.so_4" Value="..\WinPDFPresenter\bin\Release\net9.0\publish\runtimes\linux-musl-arm64\native"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_libSkiaSharp.so_5" Value="..\WinPDFPresenter\bin\Release\net9.0\publish\runtimes\linux-musl-loongarch64\native"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_libSkiaSharp.so_6" Value="..\WinPDFPresenter\bin\Release\net9.0\publish\runtimes\linux-musl-riscv64\native"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_libSkiaSharp.so_7" Value="..\WinPDFPresenter\bin\Release\net9.0\publish\runtimes\linux-musl-x64\native"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_libSkiaSharp.so_8" Value="..\WinPDFPresenter\bin\Release\net9.0\publish\runtimes\linux-riscv64\native"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_libSkiaSharp.so_9" Value="..\WinPDFPresenter\bin\Release\net9.0\publish\runtimes\linux-x64\native"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_libonigwrap.dll" Value="..\WinPDFPresenter\bin\Release\net9.0\publish\runtimes\win-arm64\native"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_libonigwrap.dll_1" Value="..\WinPDFPresenter\bin\Release\net9.0\publish\runtimes\win-x64\native"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_libonigwrap.dll_2" Value="..\WinPDFPresenter\bin\Release\net9.0\publish\runtimes\win-x86\native"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_libonigwrap.dylib" Value="..\WinPDFPresenter\bin\Release\net9.0\publish\runtimes\osx\native"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_libonigwrap.so" Value="..\WinPDFPresenter\bin\Release\net9.0\publish\runtimes\linux-arm64\native"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_libonigwrap.so_1" Value="..\WinPDFPresenter\bin\Release\net9.0\publish\runtimes\linux-musl-arm64\native"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_libonigwrap.so_2" Value="..\WinPDFPresenter\bin\Release\net9.0\publish\runtimes\linux-musl-x64\native"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_libonigwrap.so_3" Value="..\WinPDFPresenter\bin\Release\net9.0\publish\runtimes\linux-x64\native"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_libpdfium.dylib" Value="..\WinPDFPresenter\bin\Release\net9.0\publish\runtimes\osx-arm64\native"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_libpdfium.dylib_1" Value="..\WinPDFPresenter\bin\Release\net9.0\publish\runtimes\osx-x64\native"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_libpdfium.so" Value="..\WinPDFPresenter\bin\Release\net9.0\publish\runtimes\linux-arm\native"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_libpdfium.so_1" Value="..\WinPDFPresenter\bin\Release\net9.0\publish\runtimes\linux-arm64\native"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_libpdfium.so_2" Value="..\WinPDFPresenter\bin\Release\net9.0\publish\runtimes\linux-musl-arm64\native"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_libpdfium.so_3" Value="..\WinPDFPresenter\bin\Release\net9.0\publish\runtimes\linux-musl-x64\native"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_libpdfium.so_4" Value="..\WinPDFPresenter\bin\Release\net9.0\publish\runtimes\linux-musl-x86\native"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_libpdfium.so_5" Value="..\WinPDFPresenter\bin\Release\net9.0\publish\runtimes\linux-x64\native"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_libpdfium.so_6" Value="..\WinPDFPresenter\bin\Release\net9.0\publish\runtimes\linux-x86\native"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_pdfium.dll" Value="..\WinPDFPresenter\bin\Release\net9.0\publish\runtimes\win-arm64\native"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_pdfium.dll_1" Value="..\WinPDFPresenter\bin\Release\net9.0\publish\runtimes\win-x64\native"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_pdfium.dll_2" Value="..\WinPDFPresenter\bin\Release\net9.0\publish\runtimes\win-x86\native"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Avalonia.Base.dll" Value="Avalonia.Base.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Avalonia.Controls.dll" Value="Avalonia.Controls.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Avalonia.DesignerSupport.dll" Value="Avalonia.DesignerSupport.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Avalonia.Desktop.dll" Value="Avalonia.Desktop.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Avalonia.Dialogs.dll" Value="Avalonia.Dialogs.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Avalonia.Fonts.Inter.dll" Value="Avalonia.Fonts.Inter.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Avalonia.FreeDesktop.dll" Value="Avalonia.FreeDesktop.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Avalonia.Markup.Xaml.dll" Value="Avalonia.Markup.Xaml.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Avalonia.Markup.dll" Value="Avalonia.Markup.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Avalonia.Metal.dll" Value="Avalonia.Metal.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Avalonia.MicroCom.dll" Value="Avalonia.MicroCom.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Avalonia.Native.dll" Value="Avalonia.Native.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Avalonia.OpenGL.dll" Value="Avalonia.OpenGL.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Avalonia.ReactiveUI.dll" Value="Avalonia.ReactiveUI.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Avalonia.Remote.Protocol.dll" Value="Avalonia.Remote.Protocol.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Avalonia.Skia.dll" Value="Avalonia.Skia.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Avalonia.Svg.dll" Value="Avalonia.Svg.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Avalonia.Themes.Fluent.dll" Value="Avalonia.Themes.Fluent.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Avalonia.Vulkan.dll" Value="Avalonia.Vulkan.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Avalonia.Win32.Automation.dll" Value="Avalonia.Win32.Automation.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Avalonia.Win32.dll" Value="Avalonia.Win32.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Avalonia.X11.dll" Value="Avalonia.X11.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Avalonia.Xaml.Interactions.dll" Value="Avalonia.Xaml.Interactions.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Avalonia.Xaml.Interactivity.dll" Value="Avalonia.Xaml.Interactivity.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Avalonia.dll" Value="Avalonia.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_AvaloniaEdit.TextMate.Grammars.dll" Value="AvaloniaEdit.TextMate.Grammars.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_AvaloniaEdit.TextMate.dll" Value="AvaloniaEdit.TextMate.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_AvaloniaEdit.dll" Value="AvaloniaEdit.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_ColorDocument.Avalonia.dll" Value="ColorDocument.Avalonia.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_ColorTextBlock.Avalonia.dll" Value="ColorTextBlock.Avalonia.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_CommunityToolkit.Mvvm.dll" Value="CommunityToolkit.Mvvm.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_DynamicData.dll" Value="DynamicData.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_ExCSS.dll" Value="ExCSS.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Fizzler.dll" Value="Fizzler.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_HarfBuzzSharp.dll" Value="HarfBuzzSharp.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_HtmlAgilityPack.dll" Value="HtmlAgilityPack.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Markdown.Avalonia.Full.dll" Value="Markdown.Avalonia.Full.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Markdown.Avalonia.Html.dll" Value="Markdown.Avalonia.Html.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Markdown.Avalonia.Svg.dll" Value="Markdown.Avalonia.Svg.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Markdown.Avalonia.SyntaxHigh.dll" Value="Markdown.Avalonia.SyntaxHigh.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Markdown.Avalonia.dll" Value="Markdown.Avalonia.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_MicroCom.Runtime.dll" Value="MicroCom.Runtime.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Extensions.DependencyInjection.Abstractions.dll" Value="Microsoft.Extensions.DependencyInjection.Abstractions.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Extensions.DependencyInjection.dll" Value="Microsoft.Extensions.DependencyInjection.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Extensions.Logging.Abstractions.dll" Value="Microsoft.Extensions.Logging.Abstractions.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Extensions.Logging.dll" Value="Microsoft.Extensions.Logging.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Extensions.Options.dll" Value="Microsoft.Extensions.Options.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Extensions.Primitives.dll" Value="Microsoft.Extensions.Primitives.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Newtonsoft.Json.dll" Value="Newtonsoft.Json.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Onigwrap.dll" Value="Onigwrap.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_PDFtoImage.dll" Value="PDFtoImage.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_PdfSharp.BarCodes.dll" Value="PdfSharp.BarCodes.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_PdfSharp.Charting.dll" Value="PdfSharp.Charting.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_PdfSharp.Cryptography.dll" Value="PdfSharp.Cryptography.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_PdfSharp.Quality.dll" Value="PdfSharp.Quality.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_PdfSharp.Shared.dll" Value="PdfSharp.Shared.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_PdfSharp.Snippets.dll" Value="PdfSharp.Snippets.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_PdfSharp.System.dll" Value="PdfSharp.System.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_PdfSharp.WPFonts.dll" Value="PdfSharp.WPFonts.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_PdfSharp.dll" Value="PdfSharp.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_ReactiveUI.dll" Value="ReactiveUI.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_ShimSkiaSharp.dll" Value="ShimSkiaSharp.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_SkiaSharp.dll" Value="SkiaSharp.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Splat.dll" Value="Splat.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Svg.Custom.dll" Value="Svg.Custom.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Svg.Model.dll" Value="Svg.Model.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_System.Reactive.dll" Value="System.Reactive.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_System.Security.Cryptography.Pkcs.dll" Value="System.Security.Cryptography.Pkcs.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_System.Security.Cryptography.Pkcs.dll_1" Value="System.Security.Cryptography.Pkcs.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_TextMateSharp.Grammars.dll" Value="TextMateSharp.Grammars.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_TextMateSharp.dll" Value="TextMateSharp.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Tmds.DBus.Protocol.dll" Value="Tmds.DBus.Protocol.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_WinPDFPresenter.deps.json" Value="WinPDFPresenter.deps.json"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_WinPDFPresenter.dll" Value="WinPDFPresenter.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_WinPDFPresenter.exe" Value="WinPDFPresenter.exe"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_WinPDFPresenter.runtimeconfig.json" Value="WinPDFPresenter.runtimeconfig.json"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_av_libglesv2.dll" Value="av_libglesv2.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_av_libglesv2.dll_1" Value="av_libglesv2.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_av_libglesv2.dll_2" Value="av_libglesv2.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_libAvaloniaNative.dylib" Value="libAvaloniaNative.dylib"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_libHarfBuzzSharp.dll" Value="libHarfBuzzSharp.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_libHarfBuzzSharp.dll_1" Value="libHarfBuzzSharp.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_libHarfBuzzSharp.dll_2" Value="libHarfBuzzSharp.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_libHarfBuzzSharp.dylib" Value="libHarfBuzzSharp.dylib"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_libHarfBuzzSharp.so" Value="libHarfBuzzSharp.so"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_libHarfBuzzSharp.so_1" Value="libHarfBuzzSharp.so"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_libHarfBuzzSharp.so_2" Value="libHarfBuzzSharp.so"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_libHarfBuzzSharp.so_3" Value="libHarfBuzzSharp.so"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_libSkiaSharp.dll" Value="libSkiaSharp.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_libSkiaSharp.dll_1" Value="libSkiaSharp.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_libSkiaSharp.dll_2" Value="libSkiaSharp.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_libSkiaSharp.dylib" Value="libSkiaSharp.dylib"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_libSkiaSharp.so" Value="libSkiaSharp.so"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_libSkiaSharp.so_1" Value="libSkiaSharp.so"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_libSkiaSharp.so_10" Value="libSkiaSharp.so"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_libSkiaSharp.so_2" Value="libSkiaSharp.so"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_libSkiaSharp.so_3" Value="libSkiaSharp.so"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_libSkiaSharp.so_4" Value="libSkiaSharp.so"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_libSkiaSharp.so_5" Value="libSkiaSharp.so"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_libSkiaSharp.so_6" Value="libSkiaSharp.so"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_libSkiaSharp.so_7" Value="libSkiaSharp.so"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_libSkiaSharp.so_8" Value="libSkiaSharp.so"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_libSkiaSharp.so_9" Value="libSkiaSharp.so"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_libonigwrap.dll" Value="libonigwrap.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_libonigwrap.dll_1" Value="libonigwrap.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_libonigwrap.dll_2" Value="libonigwrap.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_libonigwrap.dylib" Value="libonigwrap.dylib"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_libonigwrap.so" Value="libonigwrap.so"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_libonigwrap.so_1" Value="libonigwrap.so"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_libonigwrap.so_2" Value="libonigwrap.so"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_libonigwrap.so_3" Value="libonigwrap.so"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_libpdfium.dylib" Value="libpdfium.dylib"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_libpdfium.dylib_1" Value="libpdfium.dylib"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_libpdfium.so" Value="libpdfium.so"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_libpdfium.so_1" Value="libpdfium.so"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_libpdfium.so_2" Value="libpdfium.so"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_libpdfium.so_3" Value="libpdfium.so"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_libpdfium.so_4" Value="libpdfium.so"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_libpdfium.so_5" Value="libpdfium.so"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_libpdfium.so_6" Value="libpdfium.so"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_pdfium.dll" Value="pdfium.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_pdfium.dll_1" Value="pdfium.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_pdfium.dll_2" Value="pdfium.dll"/>
+    <ROW Property="AI_README_FILE" Value="[#Readme.rtf]"/>
+    <ROW Property="AI_REQUIRED_DOTNET_CORE_DISPLAY" MultiBuildValue="DefaultBuild:9.0" ValueLocId="-"/>
+    <ROW Property="AI_REQUIRED_DOTNET_CORE_VERSION" MultiBuildValue="DefaultBuild:9.0" ValueLocId="-"/>
+    <ROW Property="AI_REQUIRED_DOTNET_DISPLAY" MultiBuildValue="DefaultBuild:4.8.1" ValueLocId="-"/>
+    <ROW Property="AI_REQUIRED_DOTNET_VERSION" MultiBuildValue="DefaultBuild:4.8.1" ValueLocId="-"/>
+    <ROW Property="ALLUSERS" Value="1" MultiBuildValue="DefaultBuild:2"/>
+    <ROW Property="ARPCOMMENTS" Value="[|ProductName] is a presenter view for PDF presentations with notes and a timer. Heavily inspired by pdfpc and PowerPoint&apos;s own presenter view. Notes are displayed using Markdown." ValueLocId="*"/>
+    <ROW Property="ARPPRODUCTICON" Value="presenterlogo.exe" Type="8"/>
+    <ROW Property="ARPURLINFOABOUT" Value="https://github.com/fffflorian/WinPDFPresenter"/>
+    <ROW Property="ARPURLUPDATEINFO" Value="https://github.com/fffflorian/WinPDFPresenter"/>
+    <ROW Property="CTRLS" Value="1"/>
+    <ROW Property="Manufacturer" Value="Florian Frank"/>
+    <ROW Property="MsiLogging" MultiBuildValue="DefaultBuild:vp"/>
+    <ROW Property="ProductCode" Value="1033:{C7CAD4C6-28DB-47CE-A4DB-F574C41E05C8} " Type="16"/>
+    <ROW Property="ProductLanguage" Value="1033"/>
+    <ROW Property="ProductName" Value="WinPDFPresenter"/>
+    <ROW Property="ProductVersion" Value="1.0.0" Options="32"/>
+    <ROW Property="SecureCustomProperties" Value="OLDPRODUCTS;AI_NEWERPRODUCTFOUND"/>
+    <ROW Property="UpgradeCode" Value="{5DCF8323-253D-482A-8AB3-0879016D68D7}"/>
+    <ROW Property="VIEWREADME" Value="1" Type="4"/>
+    <ROW Property="WindowsType9X" MultiBuildValue="DefaultBuild:Windows 9x/ME" ValueLocId="-"/>
+    <ROW Property="WindowsType9XDisplay" MultiBuildValue="DefaultBuild:Windows 9x/ME" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT40" MultiBuildValue="DefaultBuild:Windows NT 4.0" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT40Display" MultiBuildValue="DefaultBuild:Windows NT 4.0" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT50" MultiBuildValue="DefaultBuild:Windows 2000" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT50Display" MultiBuildValue="DefaultBuild:Windows 2000" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT5X" MultiBuildValue="DefaultBuild:Windows XP/2003" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT5XDisplay" MultiBuildValue="DefaultBuild:Windows XP/2003" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT60" MultiBuildValue="DefaultBuild:Windows Vista/Server 2008" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT60Display" MultiBuildValue="DefaultBuild:Windows Vista/Server 2008" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT64" MultiBuildValue="DefaultBuild:Windows Server 2008 R2 x64, Windows Server 2012 x64, Windows Server 2012 R2 x64, Windows Server x64" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT64Display" MultiBuildValue="DefaultBuild:Windows Server 2008 R2 x64, Windows Server 2012 x64, Windows Server 2012 R2 x64, Windows Server x64" ValueLocId="-"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiDirsComponent">
+    <ROW Directory="APPDIR" Directory_Parent="TARGETDIR" DefaultDir="APPDIR:." IsPseudoRoot="1" DirectoryOptions="3"/>
+    <ROW Directory="DesktopFolder" Directory_Parent="TARGETDIR" DefaultDir="DESKTO~1|DesktopFolder" IsPseudoRoot="1"/>
+    <ROW Directory="TARGETDIR" DefaultDir="SourceDir"/>
+    <ROW Directory="WinPDFPresenter_Dir" Directory_Parent="APPDIR" DefaultDir="WINPDF~1|WinPDFPresenter" DirectoryOptions="3"/>
+    <ROW Directory="lib_Dir" Directory_Parent="win_Dir" DefaultDir="lib" DirectoryOptions="3"/>
+    <ROW Directory="linuxarm64_Dir" Directory_Parent="runtimes_Dir" DefaultDir="LINUX-~2|linux-arm64" DirectoryOptions="3"/>
+    <ROW Directory="linuxarm_Dir" Directory_Parent="runtimes_Dir" DefaultDir="LINUX-~1|linux-arm" DirectoryOptions="3"/>
+    <ROW Directory="linuxloongarch64_Dir" Directory_Parent="runtimes_Dir" DefaultDir="LINUX-~3|linux-loongarch64" DirectoryOptions="3"/>
+    <ROW Directory="linuxmuslarm64_Dir" Directory_Parent="runtimes_Dir" DefaultDir="LINUX-~5|linux-musl-arm64" DirectoryOptions="3"/>
+    <ROW Directory="linuxmuslarm_Dir" Directory_Parent="runtimes_Dir" DefaultDir="LINUX-~4|linux-musl-arm" DirectoryOptions="3"/>
+    <ROW Directory="linuxmuslloongarch64_Dir" Directory_Parent="runtimes_Dir" DefaultDir="LINUX-~6|linux-musl-loongarch64" DirectoryOptions="3"/>
+    <ROW Directory="linuxmuslriscv64_Dir" Directory_Parent="runtimes_Dir" DefaultDir="LINUX-~7|linux-musl-riscv64" DirectoryOptions="3"/>
+    <ROW Directory="linuxmuslx64_Dir" Directory_Parent="runtimes_Dir" DefaultDir="LINUX-~8|linux-musl-x64" DirectoryOptions="3"/>
+    <ROW Directory="linuxmuslx86_Dir" Directory_Parent="runtimes_Dir" DefaultDir="LINUX-~9|linux-musl-x86" DirectoryOptions="3"/>
+    <ROW Directory="linuxriscv64_Dir" Directory_Parent="runtimes_Dir" DefaultDir="LINUX~10|linux-riscv64" DirectoryOptions="3"/>
+    <ROW Directory="linuxx64_Dir" Directory_Parent="runtimes_Dir" DefaultDir="LINUX~11|linux-x64" DirectoryOptions="3"/>
+    <ROW Directory="linuxx86_Dir" Directory_Parent="runtimes_Dir" DefaultDir="LINUX~12|linux-x86" DirectoryOptions="3"/>
+    <ROW Directory="native_10_Dir" Directory_Parent="linuxx64_Dir" DefaultDir="native" DirectoryOptions="3"/>
+    <ROW Directory="native_11_Dir" Directory_Parent="linuxx86_Dir" DefaultDir="native" DirectoryOptions="3"/>
+    <ROW Directory="native_12_Dir" Directory_Parent="osx_Dir" DefaultDir="native" DirectoryOptions="3"/>
+    <ROW Directory="native_13_Dir" Directory_Parent="osxarm64_Dir" DefaultDir="native" DirectoryOptions="3"/>
+    <ROW Directory="native_14_Dir" Directory_Parent="osxx64_Dir" DefaultDir="native" DirectoryOptions="3"/>
+    <ROW Directory="native_15_Dir" Directory_Parent="winarm64_Dir" DefaultDir="native" DirectoryOptions="3"/>
+    <ROW Directory="native_16_Dir" Directory_Parent="winx64_Dir" DefaultDir="native" DirectoryOptions="3"/>
+    <ROW Directory="native_17_Dir" Directory_Parent="winx86_Dir" DefaultDir="native" DirectoryOptions="3"/>
+    <ROW Directory="native_1_Dir" Directory_Parent="linuxarm64_Dir" DefaultDir="native" DirectoryOptions="3"/>
+    <ROW Directory="native_2_Dir" Directory_Parent="linuxloongarch64_Dir" DefaultDir="native" DirectoryOptions="3"/>
+    <ROW Directory="native_3_Dir" Directory_Parent="linuxmuslarm_Dir" DefaultDir="native" DirectoryOptions="3"/>
+    <ROW Directory="native_4_Dir" Directory_Parent="linuxmuslarm64_Dir" DefaultDir="native" DirectoryOptions="3"/>
+    <ROW Directory="native_5_Dir" Directory_Parent="linuxmuslloongarch64_Dir" DefaultDir="native" DirectoryOptions="3"/>
+    <ROW Directory="native_6_Dir" Directory_Parent="linuxmuslriscv64_Dir" DefaultDir="native" DirectoryOptions="3"/>
+    <ROW Directory="native_7_Dir" Directory_Parent="linuxmuslx64_Dir" DefaultDir="native" DirectoryOptions="3"/>
+    <ROW Directory="native_8_Dir" Directory_Parent="linuxmuslx86_Dir" DefaultDir="native" DirectoryOptions="3"/>
+    <ROW Directory="native_9_Dir" Directory_Parent="linuxriscv64_Dir" DefaultDir="native" DirectoryOptions="3"/>
+    <ROW Directory="native_Dir" Directory_Parent="linuxarm_Dir" DefaultDir="native" DirectoryOptions="3"/>
+    <ROW Directory="net8.0_Dir" Directory_Parent="lib_Dir" DefaultDir="net8.0" DirectoryOptions="3"/>
+    <ROW Directory="osx_Dir" Directory_Parent="runtimes_Dir" DefaultDir="osx" DirectoryOptions="3"/>
+    <ROW Directory="osxarm64_Dir" Directory_Parent="runtimes_Dir" DefaultDir="OSX-AR~1|osx-arm64" DirectoryOptions="3"/>
+    <ROW Directory="osxx64_Dir" Directory_Parent="runtimes_Dir" DefaultDir="osx-x64" DirectoryOptions="3"/>
+    <ROW Directory="runtimes_Dir" Directory_Parent="WinPDFPresenter_Dir" DefaultDir="runtimes" DirectoryOptions="3"/>
+    <ROW Directory="win_Dir" Directory_Parent="runtimes_Dir" DefaultDir="win" DirectoryOptions="3"/>
+    <ROW Directory="winarm64_Dir" Directory_Parent="runtimes_Dir" DefaultDir="WIN-AR~1|win-arm64" DirectoryOptions="3"/>
+    <ROW Directory="winx64_Dir" Directory_Parent="runtimes_Dir" DefaultDir="win-x64" DirectoryOptions="3"/>
+    <ROW Directory="winx86_Dir" Directory_Parent="runtimes_Dir" DefaultDir="win-x86" DirectoryOptions="3"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.SideBySideGuidComponent">
+    <ROW Component="APPDIR" Value="{9B16AD62-71A5-4AEF-92D6-4FE9C09EF868}"/>
+    <ROW Component="ProductInformation" Value="{53A972EC-9DA1-4A91-BE57-3BC228327899}"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiCompsComponent">
+    <ROW Component="AI_INSTALLPERUSER" ComponentId="{E7E514A0-B6A9-4900-8C92-AF6B1FC855E8}" Directory_="APPDIR" Attributes="4" KeyPath="AI_INSTALLPERUSER" Options="1"/>
+    <ROW Component="APPDIR" ComponentId="{9B16AD62-71A5-4AEF-92D6-4FE9C09EF868}" Directory_="APPDIR" Attributes="0"/>
+    <ROW Component="ProductInformation" ComponentId="{53A972EC-9DA1-4A91-BE57-3BC228327899}" Directory_="APPDIR" Attributes="4" KeyPath="Version"/>
+    <ROW Component="Readme.rtf" ComponentId="{E16C949A-8B7D-4277-B402-145B3571482F}" Directory_="APPDIR" Attributes="0" KeyPath="Readme.rtf" Type="0"/>
+    <ROW Component="WinPDFPresenter_PrimaryOutput" ComponentId="{AB74B4E4-3219-4EC5-8657-F8812288185F}" Directory_="WinPDFPresenter_Dir" Attributes="0" KeyPath="WinPDFPresenter.dll"/>
+    <ROW Component="WinPDFPresenter_PublishOutput" ComponentId="{F6E5780F-F015-4290-AD07-AC3C86197242}" Directory_="WinPDFPresenter_Dir" Attributes="0" KeyPath="WinPDFPresenter.exe"/>
+    <ROW Component="WinPDFPresenter_PublishOutput_runtimes_linuxarm64_native" ComponentId="{26AABE65-B07E-497B-9CEA-01BAF164C11D}" Directory_="native_1_Dir" Attributes="0" KeyPath="libHarfBuzzSharp.so_1" Type="0"/>
+    <ROW Component="WinPDFPresenter_PublishOutput_runtimes_linuxarm_native" ComponentId="{B2C911FD-A7CC-4202-B369-CDBD8F7828D7}" Directory_="native_Dir" Attributes="0" KeyPath="libHarfBuzzSharp.so" Type="0"/>
+    <ROW Component="WinPDFPresenter_PublishOutput_runtimes_linuxloongarch64_native" ComponentId="{A636D6AB-6F79-4A4E-8690-900FEC829428}" Directory_="native_2_Dir" Attributes="0" KeyPath="libSkiaSharp.so_2" Type="0"/>
+    <ROW Component="WinPDFPresenter_PublishOutput_runtimes_linuxmuslarm64_native" ComponentId="{473143B5-37E5-4E70-839A-F2F74D456E4F}" Directory_="native_4_Dir" Attributes="0" KeyPath="libonigwrap.so_1" Type="0"/>
+    <ROW Component="WinPDFPresenter_PublishOutput_runtimes_linuxmuslarm_native" ComponentId="{B2E4213B-D7A9-42BF-AD4C-FA446980C14E}" Directory_="native_3_Dir" Attributes="0" KeyPath="libSkiaSharp.so_3" Type="0"/>
+    <ROW Component="WinPDFPresenter_PublishOutput_runtimes_linuxmuslloongarch64_native" ComponentId="{2966FD16-8934-4163-A042-812911F8E47B}" Directory_="native_5_Dir" Attributes="0" KeyPath="libSkiaSharp.so_5" Type="0"/>
+    <ROW Component="WinPDFPresenter_PublishOutput_runtimes_linuxmuslriscv64_native" ComponentId="{AB400FE1-2C72-4B51-BCE7-3F9E09CB191D}" Directory_="native_6_Dir" Attributes="0" KeyPath="libSkiaSharp.so_6" Type="0"/>
+    <ROW Component="WinPDFPresenter_PublishOutput_runtimes_linuxmuslx64_native" ComponentId="{02949626-2C1D-4CA9-B9DA-C258B76620B1}" Directory_="native_7_Dir" Attributes="0" KeyPath="libHarfBuzzSharp.so_2" Type="0"/>
+    <ROW Component="WinPDFPresenter_PublishOutput_runtimes_linuxmuslx86_native" ComponentId="{A8F21BFB-F4BD-4689-9895-C5DB9171503F}" Directory_="native_8_Dir" Attributes="0" KeyPath="libpdfium.so_4" Type="0"/>
+    <ROW Component="WinPDFPresenter_PublishOutput_runtimes_linuxriscv64_native" ComponentId="{64AC247C-625A-48ED-9DC8-D31392102701}" Directory_="native_9_Dir" Attributes="0" KeyPath="libSkiaSharp.so_8" Type="0"/>
+    <ROW Component="WinPDFPresenter_PublishOutput_runtimes_linuxx64_native" ComponentId="{212F8ACF-DBCC-4AC3-A315-73B2978E42DB}" Directory_="native_10_Dir" Attributes="0" KeyPath="libHarfBuzzSharp.so_3" Type="0"/>
+    <ROW Component="WinPDFPresenter_PublishOutput_runtimes_linuxx86_native" ComponentId="{5C43BFB8-8CD8-4562-BE99-9BECA7F320F8}" Directory_="native_11_Dir" Attributes="0" KeyPath="libpdfium.so_6" Type="0"/>
+    <ROW Component="WinPDFPresenter_PublishOutput_runtimes_osx_native" ComponentId="{25685568-42E7-4DFE-B2CC-3B087336EAEF}" Directory_="native_12_Dir" Attributes="0" KeyPath="libAvaloniaNative.dylib" Type="0"/>
+    <ROW Component="WinPDFPresenter_PublishOutput_runtimes_osxarm64_native" ComponentId="{75592BCF-86BC-4183-A1C5-37A097B4F6AE}" Directory_="native_13_Dir" Attributes="0" KeyPath="libpdfium.dylib" Type="0"/>
+    <ROW Component="WinPDFPresenter_PublishOutput_runtimes_osxx64_native" ComponentId="{355D8024-6DA6-4BD6-AEE9-DC13F0DCD671}" Directory_="native_14_Dir" Attributes="0" KeyPath="libpdfium.dylib_1" Type="0"/>
+    <ROW Component="WinPDFPresenter_PublishOutput_runtimes_win_lib_net8.0" ComponentId="{67820B13-FC0F-4ABB-97F5-270A84E02ACF}" Directory_="net8.0_Dir" Attributes="0" KeyPath="System.Security.Cryptography.Pkcs.dll_1"/>
+    <ROW Component="WinPDFPresenter_PublishOutput_runtimes_winarm64_native" ComponentId="{44B9A663-1378-4574-AFA8-8585A5D91F9F}" Directory_="native_15_Dir" Attributes="256" KeyPath="pdfium.dll"/>
+    <ROW Component="WinPDFPresenter_PublishOutput_runtimes_winx64_native" ComponentId="{2FD0FF2D-8020-4FEC-B3F0-92FC5EDB50F8}" Directory_="native_16_Dir" Attributes="256" KeyPath="pdfium.dll_1"/>
+    <ROW Component="WinPDFPresenter_PublishOutput_runtimes_winx86_native" ComponentId="{91C576EA-DC20-4898-A308-1EDDB31A481C}" Directory_="native_17_Dir" Attributes="0" KeyPath="pdfium.dll_2"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiFeatsComponent">
+    <ROW Feature="MainFeature" Title="MainFeature" Description="Description" Display="1" Level="1" Directory_="APPDIR" Attributes="0"/>
+    <ATTRIBUTE name="CurrentFeature" value="MainFeature"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiFilesComponent">
+    <ROW File="WinPDFPresenter.dll" Component_="WinPDFPresenter_PrimaryOutput" FileName="WINPDF~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_WinPDFPresenter.dll]" Version="65535.65535.65535.65535" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_WinPDFPresenter.dll&gt;" SelfReg="false"/>
+    <ROW File="Avalonia.Base.dll" Component_="WinPDFPresenter_PublishOutput" FileName="AVALON~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Avalonia.Base.dll]" Version="65535.65535.65535.65535" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Avalonia.Base.dll&gt;" SelfReg="false"/>
+    <ROW File="Avalonia.Controls.dll" Component_="WinPDFPresenter_PublishOutput" FileName="AVALON~3.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Avalonia.Controls.dll]" Version="65535.65535.65535.65535" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Avalonia.Controls.dll&gt;" SelfReg="false"/>
+    <ROW File="Avalonia.DesignerSupport.dll" Component_="WinPDFPresenter_PublishOutput" FileName="AVALON~4.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Avalonia.DesignerSupport.dll]" Version="65535.65535.65535.65535" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Avalonia.DesignerSupport.dll&gt;" SelfReg="false"/>
+    <ROW File="Avalonia.Desktop.dll" Component_="WinPDFPresenter_PublishOutput" FileName="AVALON~5.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Avalonia.Desktop.dll]" Version="65535.65535.65535.65535" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Avalonia.Desktop.dll&gt;" SelfReg="false"/>
+    <ROW File="Avalonia.Dialogs.dll" Component_="WinPDFPresenter_PublishOutput" FileName="AVALON~6.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Avalonia.Dialogs.dll]" Version="65535.65535.65535.65535" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Avalonia.Dialogs.dll&gt;" SelfReg="false"/>
+    <ROW File="Avalonia.dll" Component_="WinPDFPresenter_PublishOutput" FileName="[|AI_PROPPATH_FILENAME_PERBUILD_Avalonia.dll]" Version="65535.65535.65535.65535" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Avalonia.dll&gt;" SelfReg="false"/>
+    <ROW File="Avalonia.Fonts.Inter.dll" Component_="WinPDFPresenter_PublishOutput" FileName="AVALON~7.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Avalonia.Fonts.Inter.dll]" Version="65535.65535.65535.65535" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Avalonia.Fonts.Inter.dll&gt;" SelfReg="false"/>
+    <ROW File="Avalonia.FreeDesktop.dll" Component_="WinPDFPresenter_PublishOutput" FileName="AVALON~8.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Avalonia.FreeDesktop.dll]" Version="65535.65535.65535.65535" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Avalonia.FreeDesktop.dll&gt;" SelfReg="false"/>
+    <ROW File="Avalonia.Markup.dll" Component_="WinPDFPresenter_PublishOutput" FileName="AVALON~9.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Avalonia.Markup.dll]" Version="65535.65535.65535.65535" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Avalonia.Markup.dll&gt;" SelfReg="false"/>
+    <ROW File="Avalonia.Markup.Xaml.dll" Component_="WinPDFPresenter_PublishOutput" FileName="AVALO~10.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Avalonia.Markup.Xaml.dll]" Version="65535.65535.65535.65535" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Avalonia.Markup.Xaml.dll&gt;" SelfReg="false"/>
+    <ROW File="Avalonia.Metal.dll" Component_="WinPDFPresenter_PublishOutput" FileName="AVALO~11.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Avalonia.Metal.dll]" Version="65535.65535.65535.65535" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Avalonia.Metal.dll&gt;" SelfReg="false"/>
+    <ROW File="Avalonia.MicroCom.dll" Component_="WinPDFPresenter_PublishOutput" FileName="AVALO~12.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Avalonia.MicroCom.dll]" Version="65535.65535.65535.65535" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Avalonia.MicroCom.dll&gt;" SelfReg="false"/>
+    <ROW File="Avalonia.Native.dll" Component_="WinPDFPresenter_PublishOutput" FileName="AVALO~13.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Avalonia.Native.dll]" Version="65535.65535.65535.65535" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Avalonia.Native.dll&gt;" SelfReg="false"/>
+    <ROW File="Avalonia.OpenGL.dll" Component_="WinPDFPresenter_PublishOutput" FileName="AVALO~14.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Avalonia.OpenGL.dll]" Version="65535.65535.65535.65535" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Avalonia.OpenGL.dll&gt;" SelfReg="false"/>
+    <ROW File="Avalonia.ReactiveUI.dll" Component_="WinPDFPresenter_PublishOutput" FileName="AVALO~15.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Avalonia.ReactiveUI.dll]" Version="65535.65535.65535.65535" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Avalonia.ReactiveUI.dll&gt;" SelfReg="false"/>
+    <ROW File="Avalonia.Remote.Protocol.dll" Component_="WinPDFPresenter_PublishOutput" FileName="AVALO~16.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Avalonia.Remote.Protocol.dll]" Version="65535.65535.65535.65535" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Avalonia.Remote.Protocol.dll&gt;" SelfReg="false"/>
+    <ROW File="Avalonia.Skia.dll" Component_="WinPDFPresenter_PublishOutput" FileName="AVALO~17.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Avalonia.Skia.dll]" Version="65535.65535.65535.65535" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Avalonia.Skia.dll&gt;" SelfReg="false"/>
+    <ROW File="Avalonia.Svg.dll" Component_="WinPDFPresenter_PublishOutput" FileName="AVALO~18.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Avalonia.Svg.dll]" Version="65535.65535.65535.65535" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Avalonia.Svg.dll&gt;" SelfReg="false"/>
+    <ROW File="Avalonia.Themes.Fluent.dll" Component_="WinPDFPresenter_PublishOutput" FileName="AVALO~19.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Avalonia.Themes.Fluent.dll]" Version="65535.65535.65535.65535" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Avalonia.Themes.Fluent.dll&gt;" SelfReg="false"/>
+    <ROW File="Avalonia.Vulkan.dll" Component_="WinPDFPresenter_PublishOutput" FileName="AVALO~20.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Avalonia.Vulkan.dll]" Version="65535.65535.65535.65535" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Avalonia.Vulkan.dll&gt;" SelfReg="false"/>
+    <ROW File="Avalonia.Win32.Automation.dll" Component_="WinPDFPresenter_PublishOutput" FileName="AVALO~21.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Avalonia.Win32.Automation.dll]" Version="65535.65535.65535.65535" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Avalonia.Win32.Automation.dll&gt;" SelfReg="false"/>
+    <ROW File="Avalonia.Win32.dll" Component_="WinPDFPresenter_PublishOutput" FileName="AVALO~22.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Avalonia.Win32.dll]" Version="65535.65535.65535.65535" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Avalonia.Win32.dll&gt;" SelfReg="false"/>
+    <ROW File="Avalonia.X11.dll" Component_="WinPDFPresenter_PublishOutput" FileName="AVALO~23.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Avalonia.X11.dll]" Version="65535.65535.65535.65535" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Avalonia.X11.dll&gt;" SelfReg="false"/>
+    <ROW File="Avalonia.Xaml.Interactions.dll" Component_="WinPDFPresenter_PublishOutput" FileName="AVALO~24.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Avalonia.Xaml.Interactions.dll]" Version="65535.65535.65535.65535" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Avalonia.Xaml.Interactions.dll&gt;" SelfReg="false"/>
+    <ROW File="Avalonia.Xaml.Interactivity.dll" Component_="WinPDFPresenter_PublishOutput" FileName="AVALO~25.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Avalonia.Xaml.Interactivity.dll]" Version="65535.65535.65535.65535" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Avalonia.Xaml.Interactivity.dll&gt;" SelfReg="false"/>
+    <ROW File="AvaloniaEdit.dll" Component_="WinPDFPresenter_PublishOutput" FileName="AVALO~26.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_AvaloniaEdit.dll]" Version="65535.65535.65535.65535" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_AvaloniaEdit.dll&gt;" SelfReg="false"/>
+    <ROW File="AvaloniaEdit.TextMate.dll" Component_="WinPDFPresenter_PublishOutput" FileName="AVALO~27.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_AvaloniaEdit.TextMate.dll]" Version="65535.65535.65535.65535" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_AvaloniaEdit.TextMate.dll&gt;" SelfReg="false"/>
+    <ROW File="AvaloniaEdit.TextMate.Grammars.dll" Component_="WinPDFPresenter_PublishOutput" FileName="AVALO~28.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_AvaloniaEdit.TextMate.Grammars.dll]" Version="65535.65535.65535.65535" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_AvaloniaEdit.TextMate.Grammars.dll&gt;" SelfReg="false"/>
+    <ROW File="ColorDocument.Avalonia.dll" Component_="WinPDFPresenter_PublishOutput" FileName="COLORD~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_ColorDocument.Avalonia.dll]" Version="65535.65535.65535.65535" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_ColorDocument.Avalonia.dll&gt;" SelfReg="false"/>
+    <ROW File="ColorTextBlock.Avalonia.dll" Component_="WinPDFPresenter_PublishOutput" FileName="COLORT~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_ColorTextBlock.Avalonia.dll]" Version="65535.65535.65535.65535" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_ColorTextBlock.Avalonia.dll&gt;" SelfReg="false"/>
+    <ROW File="CommunityToolkit.Mvvm.dll" Component_="WinPDFPresenter_PublishOutput" FileName="COMMUN~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_CommunityToolkit.Mvvm.dll]" Version="65535.65535.65535.65535" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_CommunityToolkit.Mvvm.dll&gt;" SelfReg="false"/>
+    <ROW File="DynamicData.dll" Component_="WinPDFPresenter_PublishOutput" FileName="DYNAMI~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_DynamicData.dll]" Version="65535.65535.65535.65535" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_DynamicData.dll&gt;" SelfReg="false"/>
+    <ROW File="ExCSS.dll" Component_="WinPDFPresenter_PublishOutput" FileName="[|AI_PROPPATH_FILENAME_PERBUILD_ExCSS.dll]" Version="65535.65535.65535.65535" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_ExCSS.dll&gt;" SelfReg="false"/>
+    <ROW File="Fizzler.dll" Component_="WinPDFPresenter_PublishOutput" FileName="[|AI_PROPPATH_FILENAME_PERBUILD_Fizzler.dll]" Version="65535.65535.65535.65535" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Fizzler.dll&gt;" SelfReg="false"/>
+    <ROW File="HarfBuzzSharp.dll" Component_="WinPDFPresenter_PublishOutput" FileName="HARFBU~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_HarfBuzzSharp.dll]" Version="65535.65535.65535.65535" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_HarfBuzzSharp.dll&gt;" SelfReg="false"/>
+    <ROW File="HtmlAgilityPack.dll" Component_="WinPDFPresenter_PublishOutput" FileName="HTMLAG~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_HtmlAgilityPack.dll]" Version="65535.65535.65535.65535" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_HtmlAgilityPack.dll&gt;" SelfReg="false"/>
+    <ROW File="Markdown.Avalonia.dll" Component_="WinPDFPresenter_PublishOutput" FileName="MARKDO~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Markdown.Avalonia.dll]" Version="65535.65535.65535.65535" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Markdown.Avalonia.dll&gt;" SelfReg="false"/>
+    <ROW File="Markdown.Avalonia.Full.dll" Component_="WinPDFPresenter_PublishOutput" FileName="MARKDO~3.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Markdown.Avalonia.Full.dll]" Version="65535.65535.65535.65535" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Markdown.Avalonia.Full.dll&gt;" SelfReg="false"/>
+    <ROW File="Markdown.Avalonia.Html.dll" Component_="WinPDFPresenter_PublishOutput" FileName="MARKDO~4.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Markdown.Avalonia.Html.dll]" Version="65535.65535.65535.65535" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Markdown.Avalonia.Html.dll&gt;" SelfReg="false"/>
+    <ROW File="Markdown.Avalonia.Svg.dll" Component_="WinPDFPresenter_PublishOutput" FileName="MARKDO~5.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Markdown.Avalonia.Svg.dll]" Version="65535.65535.65535.65535" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Markdown.Avalonia.Svg.dll&gt;" SelfReg="false"/>
+    <ROW File="Markdown.Avalonia.SyntaxHigh.dll" Component_="WinPDFPresenter_PublishOutput" FileName="MARKDO~6.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Markdown.Avalonia.SyntaxHigh.dll]" Version="65535.65535.65535.65535" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Markdown.Avalonia.SyntaxHigh.dll&gt;" SelfReg="false"/>
+    <ROW File="MicroCom.Runtime.dll" Component_="WinPDFPresenter_PublishOutput" FileName="MICROC~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_MicroCom.Runtime.dll]" Version="65535.65535.65535.65535" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_MicroCom.Runtime.dll&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.Extensions.DependencyInjection.Abstractions.dll" Component_="WinPDFPresenter_PublishOutput" FileName="MICROS~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Extensions.DependencyInjection.Abstractions.dll]" Version="65535.65535.65535.65535" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.Extensions.DependencyInjection.Abstractions.dll&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.Extensions.DependencyInjection.dll" Component_="WinPDFPresenter_PublishOutput" FileName="MICROS~3.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Extensions.DependencyInjection.dll]" Version="65535.65535.65535.65535" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.Extensions.DependencyInjection.dll&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.Extensions.Logging.Abstractions.dll" Component_="WinPDFPresenter_PublishOutput" FileName="MICROS~4.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Extensions.Logging.Abstractions.dll]" Version="65535.65535.65535.65535" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.Extensions.Logging.Abstractions.dll&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.Extensions.Logging.dll" Component_="WinPDFPresenter_PublishOutput" FileName="MICROS~5.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Extensions.Logging.dll]" Version="65535.65535.65535.65535" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.Extensions.Logging.dll&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.Extensions.Options.dll" Component_="WinPDFPresenter_PublishOutput" FileName="MICROS~6.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Extensions.Options.dll]" Version="65535.65535.65535.65535" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.Extensions.Options.dll&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.Extensions.Primitives.dll" Component_="WinPDFPresenter_PublishOutput" FileName="MICROS~7.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Extensions.Primitives.dll]" Version="65535.65535.65535.65535" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.Extensions.Primitives.dll&gt;" SelfReg="false"/>
+    <ROW File="Newtonsoft.Json.dll" Component_="WinPDFPresenter_PublishOutput" FileName="NEWTON~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Newtonsoft.Json.dll]" Version="65535.65535.65535.65535" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Newtonsoft.Json.dll&gt;" SelfReg="false"/>
+    <ROW File="Onigwrap.dll" Component_="WinPDFPresenter_PublishOutput" FileName="[|AI_PROPPATH_FILENAME_PERBUILD_Onigwrap.dll]" Version="65535.65535.65535.65535" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Onigwrap.dll&gt;" SelfReg="false"/>
+    <ROW File="PdfSharp.BarCodes.dll" Component_="WinPDFPresenter_PublishOutput" FileName="PDFSHA~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_PdfSharp.BarCodes.dll]" Version="65535.65535.65535.65535" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_PdfSharp.BarCodes.dll&gt;" SelfReg="false"/>
+    <ROW File="PdfSharp.Charting.dll" Component_="WinPDFPresenter_PublishOutput" FileName="PDFSHA~3.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_PdfSharp.Charting.dll]" Version="65535.65535.65535.65535" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_PdfSharp.Charting.dll&gt;" SelfReg="false"/>
+    <ROW File="PdfSharp.Cryptography.dll" Component_="WinPDFPresenter_PublishOutput" FileName="PDFSHA~4.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_PdfSharp.Cryptography.dll]" Version="65535.65535.65535.65535" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_PdfSharp.Cryptography.dll&gt;" SelfReg="false"/>
+    <ROW File="PdfSharp.dll" Component_="WinPDFPresenter_PublishOutput" FileName="[|AI_PROPPATH_FILENAME_PERBUILD_PdfSharp.dll]" Version="65535.65535.65535.65535" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_PdfSharp.dll&gt;" SelfReg="false"/>
+    <ROW File="PdfSharp.Quality.dll" Component_="WinPDFPresenter_PublishOutput" FileName="PDFSHA~5.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_PdfSharp.Quality.dll]" Version="65535.65535.65535.65535" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_PdfSharp.Quality.dll&gt;" SelfReg="false"/>
+    <ROW File="PdfSharp.Shared.dll" Component_="WinPDFPresenter_PublishOutput" FileName="PDFSHA~6.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_PdfSharp.Shared.dll]" Version="65535.65535.65535.65535" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_PdfSharp.Shared.dll&gt;" SelfReg="false"/>
+    <ROW File="PdfSharp.Snippets.dll" Component_="WinPDFPresenter_PublishOutput" FileName="PDFSHA~7.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_PdfSharp.Snippets.dll]" Version="65535.65535.65535.65535" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_PdfSharp.Snippets.dll&gt;" SelfReg="false"/>
+    <ROW File="PdfSharp.System.dll" Component_="WinPDFPresenter_PublishOutput" FileName="PDFSHA~8.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_PdfSharp.System.dll]" Version="65535.65535.65535.65535" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_PdfSharp.System.dll&gt;" SelfReg="false"/>
+    <ROW File="PdfSharp.WPFonts.dll" Component_="WinPDFPresenter_PublishOutput" FileName="PDFSHA~9.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_PdfSharp.WPFonts.dll]" Version="65535.65535.65535.65535" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_PdfSharp.WPFonts.dll&gt;" SelfReg="false"/>
+    <ROW File="PDFtoImage.dll" Component_="WinPDFPresenter_PublishOutput" FileName="PDFTOI~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_PDFtoImage.dll]" Version="65535.65535.65535.65535" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_PDFtoImage.dll&gt;" SelfReg="false"/>
+    <ROW File="ReactiveUI.dll" Component_="WinPDFPresenter_PublishOutput" FileName="REACTI~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_ReactiveUI.dll]" Version="65535.65535.65535.65535" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_ReactiveUI.dll&gt;" SelfReg="false"/>
+    <ROW File="ShimSkiaSharp.dll" Component_="WinPDFPresenter_PublishOutput" FileName="SHIMSK~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_ShimSkiaSharp.dll]" Version="65535.65535.65535.65535" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_ShimSkiaSharp.dll&gt;" SelfReg="false"/>
+    <ROW File="SkiaSharp.dll" Component_="WinPDFPresenter_PublishOutput" FileName="SKIASH~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_SkiaSharp.dll]" Version="65535.65535.65535.65535" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_SkiaSharp.dll&gt;" SelfReg="false"/>
+    <ROW File="Splat.dll" Component_="WinPDFPresenter_PublishOutput" FileName="[|AI_PROPPATH_FILENAME_PERBUILD_Splat.dll]" Version="65535.65535.65535.65535" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Splat.dll&gt;" SelfReg="false"/>
+    <ROW File="Svg.Custom.dll" Component_="WinPDFPresenter_PublishOutput" FileName="SVGCUS~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Svg.Custom.dll]" Version="65535.65535.65535.65535" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Svg.Custom.dll&gt;" SelfReg="false"/>
+    <ROW File="Svg.Model.dll" Component_="WinPDFPresenter_PublishOutput" FileName="SVGMOD~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Svg.Model.dll]" Version="65535.65535.65535.65535" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Svg.Model.dll&gt;" SelfReg="false"/>
+    <ROW File="System.Reactive.dll" Component_="WinPDFPresenter_PublishOutput" FileName="SYSTEM~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_System.Reactive.dll]" Version="65535.65535.65535.65535" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_System.Reactive.dll&gt;" SelfReg="false"/>
+    <ROW File="System.Security.Cryptography.Pkcs.dll" Component_="WinPDFPresenter_PublishOutput" FileName="SYSTEM~3.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_System.Security.Cryptography.Pkcs.dll]" Version="65535.65535.65535.65535" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_System.Security.Cryptography.Pkcs.dll&gt;" SelfReg="false"/>
+    <ROW File="TextMateSharp.dll" Component_="WinPDFPresenter_PublishOutput" FileName="TEXTMA~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_TextMateSharp.dll]" Version="65535.65535.65535.65535" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_TextMateSharp.dll&gt;" SelfReg="false"/>
+    <ROW File="TextMateSharp.Grammars.dll" Component_="WinPDFPresenter_PublishOutput" FileName="TEXTMA~3.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_TextMateSharp.Grammars.dll]" Version="65535.65535.65535.65535" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_TextMateSharp.Grammars.dll&gt;" SelfReg="false"/>
+    <ROW File="Tmds.DBus.Protocol.dll" Component_="WinPDFPresenter_PublishOutput" FileName="TMDSDB~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Tmds.DBus.Protocol.dll]" Version="65535.65535.65535.65535" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Tmds.DBus.Protocol.dll&gt;" SelfReg="false"/>
+    <ROW File="WinPDFPresenter.deps.json" Component_="WinPDFPresenter_PublishOutput" FileName="WINPDF~2.JSO|[|AI_PROPPATH_FILENAME_PERBUILD_WinPDFPresenter.deps.json]" Version="65535.65535.65535.65535" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_WinPDFPresenter.deps.json&gt;" SelfReg="false"/>
+    <ROW File="WinPDFPresenter.exe" Component_="WinPDFPresenter_PublishOutput" FileName="WINPDF~2.EXE|[|AI_PROPPATH_FILENAME_PERBUILD_WinPDFPresenter.exe]" Version="65535.65535.65535.65535" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_WinPDFPresenter.exe&gt;" SelfReg="false" DigSign="true"/>
+    <ROW File="WinPDFPresenter.runtimeconfig.json" Component_="WinPDFPresenter_PublishOutput" FileName="WINPDF~3.JSO|[|AI_PROPPATH_FILENAME_PERBUILD_WinPDFPresenter.runtimeconfig.json]" Version="65535.65535.65535.65535" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_WinPDFPresenter.runtimeconfig.json&gt;" SelfReg="false"/>
+    <ROW File="libHarfBuzzSharp.so" Component_="WinPDFPresenter_PublishOutput_runtimes_linuxarm_native" FileName="LIBHAR~2.SO|[|AI_PROPPATH_FILENAME_PERBUILD_libHarfBuzzSharp.so]" Version="65535.65535.65535.65535" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_libHarfBuzzSharp.so&gt;" SelfReg="false"/>
+    <ROW File="libpdfium.so" Component_="WinPDFPresenter_PublishOutput_runtimes_linuxarm_native" FileName="LIBPDF~2.SO|[|AI_PROPPATH_FILENAME_PERBUILD_libpdfium.so]" Version="65535.65535.65535.65535" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_libpdfium.so&gt;" SelfReg="false"/>
+    <ROW File="libSkiaSharp.so" Component_="WinPDFPresenter_PublishOutput_runtimes_linuxarm_native" FileName="LIBSKI~2.SO|[|AI_PROPPATH_FILENAME_PERBUILD_libSkiaSharp.so]" Version="65535.65535.65535.65535" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_libSkiaSharp.so&gt;" SelfReg="false"/>
+    <ROW File="libHarfBuzzSharp.so_1" Component_="WinPDFPresenter_PublishOutput_runtimes_linuxarm64_native" FileName="LIBHAR~2.SO|[|AI_PROPPATH_FILENAME_PERBUILD_libHarfBuzzSharp.so_1]" Version="65535.65535.65535.65535" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_libHarfBuzzSharp.so_1&gt;" SelfReg="false"/>
+    <ROW File="libonigwrap.so" Component_="WinPDFPresenter_PublishOutput_runtimes_linuxarm64_native" FileName="LIBONI~2.SO|[|AI_PROPPATH_FILENAME_PERBUILD_libonigwrap.so]" Version="65535.65535.65535.65535" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_libonigwrap.so&gt;" SelfReg="false"/>
+    <ROW File="libpdfium.so_1" Component_="WinPDFPresenter_PublishOutput_runtimes_linuxarm64_native" FileName="LIBPDF~2.SO|[|AI_PROPPATH_FILENAME_PERBUILD_libpdfium.so_1]" Version="65535.65535.65535.65535" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_libpdfium.so_1&gt;" SelfReg="false"/>
+    <ROW File="libSkiaSharp.so_1" Component_="WinPDFPresenter_PublishOutput_runtimes_linuxarm64_native" FileName="LIBSKI~2.SO|[|AI_PROPPATH_FILENAME_PERBUILD_libSkiaSharp.so_1]" Version="65535.65535.65535.65535" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_libSkiaSharp.so_1&gt;" SelfReg="false"/>
+    <ROW File="libSkiaSharp.so_2" Component_="WinPDFPresenter_PublishOutput_runtimes_linuxloongarch64_native" FileName="LIBSKI~2.SO|[|AI_PROPPATH_FILENAME_PERBUILD_libSkiaSharp.so_2]" Version="65535.65535.65535.65535" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_libSkiaSharp.so_2&gt;" SelfReg="false"/>
+    <ROW File="libSkiaSharp.so_3" Component_="WinPDFPresenter_PublishOutput_runtimes_linuxmuslarm_native" FileName="LIBSKI~2.SO|[|AI_PROPPATH_FILENAME_PERBUILD_libSkiaSharp.so_3]" Version="65535.65535.65535.65535" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_libSkiaSharp.so_3&gt;" SelfReg="false"/>
+    <ROW File="libonigwrap.so_1" Component_="WinPDFPresenter_PublishOutput_runtimes_linuxmuslarm64_native" FileName="LIBONI~2.SO|[|AI_PROPPATH_FILENAME_PERBUILD_libonigwrap.so_1]" Version="65535.65535.65535.65535" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_libonigwrap.so_1&gt;" SelfReg="false"/>
+    <ROW File="libpdfium.so_2" Component_="WinPDFPresenter_PublishOutput_runtimes_linuxmuslarm64_native" FileName="LIBPDF~2.SO|[|AI_PROPPATH_FILENAME_PERBUILD_libpdfium.so_2]" Version="65535.65535.65535.65535" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_libpdfium.so_2&gt;" SelfReg="false"/>
+    <ROW File="libSkiaSharp.so_4" Component_="WinPDFPresenter_PublishOutput_runtimes_linuxmuslarm64_native" FileName="LIBSKI~2.SO|[|AI_PROPPATH_FILENAME_PERBUILD_libSkiaSharp.so_4]" Version="65535.65535.65535.65535" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_libSkiaSharp.so_4&gt;" SelfReg="false"/>
+    <ROW File="libSkiaSharp.so_5" Component_="WinPDFPresenter_PublishOutput_runtimes_linuxmuslloongarch64_native" FileName="LIBSKI~2.SO|[|AI_PROPPATH_FILENAME_PERBUILD_libSkiaSharp.so_5]" Version="65535.65535.65535.65535" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_libSkiaSharp.so_5&gt;" SelfReg="false"/>
+    <ROW File="libSkiaSharp.so_6" Component_="WinPDFPresenter_PublishOutput_runtimes_linuxmuslriscv64_native" FileName="LIBSKI~2.SO|[|AI_PROPPATH_FILENAME_PERBUILD_libSkiaSharp.so_6]" Version="65535.65535.65535.65535" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_libSkiaSharp.so_6&gt;" SelfReg="false"/>
+    <ROW File="libHarfBuzzSharp.so_2" Component_="WinPDFPresenter_PublishOutput_runtimes_linuxmuslx64_native" FileName="LIBHAR~2.SO|[|AI_PROPPATH_FILENAME_PERBUILD_libHarfBuzzSharp.so_2]" Version="65535.65535.65535.65535" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_libHarfBuzzSharp.so_2&gt;" SelfReg="false"/>
+    <ROW File="libonigwrap.so_2" Component_="WinPDFPresenter_PublishOutput_runtimes_linuxmuslx64_native" FileName="LIBONI~2.SO|[|AI_PROPPATH_FILENAME_PERBUILD_libonigwrap.so_2]" Version="65535.65535.65535.65535" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_libonigwrap.so_2&gt;" SelfReg="false"/>
+    <ROW File="libpdfium.so_3" Component_="WinPDFPresenter_PublishOutput_runtimes_linuxmuslx64_native" FileName="LIBPDF~2.SO|[|AI_PROPPATH_FILENAME_PERBUILD_libpdfium.so_3]" Version="65535.65535.65535.65535" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_libpdfium.so_3&gt;" SelfReg="false"/>
+    <ROW File="libSkiaSharp.so_7" Component_="WinPDFPresenter_PublishOutput_runtimes_linuxmuslx64_native" FileName="LIBSKI~2.SO|[|AI_PROPPATH_FILENAME_PERBUILD_libSkiaSharp.so_7]" Version="65535.65535.65535.65535" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_libSkiaSharp.so_7&gt;" SelfReg="false"/>
+    <ROW File="libpdfium.so_4" Component_="WinPDFPresenter_PublishOutput_runtimes_linuxmuslx86_native" FileName="LIBPDF~2.SO|[|AI_PROPPATH_FILENAME_PERBUILD_libpdfium.so_4]" Version="65535.65535.65535.65535" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_libpdfium.so_4&gt;" SelfReg="false"/>
+    <ROW File="libSkiaSharp.so_8" Component_="WinPDFPresenter_PublishOutput_runtimes_linuxriscv64_native" FileName="LIBSKI~2.SO|[|AI_PROPPATH_FILENAME_PERBUILD_libSkiaSharp.so_8]" Version="65535.65535.65535.65535" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_libSkiaSharp.so_8&gt;" SelfReg="false"/>
+    <ROW File="libHarfBuzzSharp.so_3" Component_="WinPDFPresenter_PublishOutput_runtimes_linuxx64_native" FileName="LIBHAR~2.SO|[|AI_PROPPATH_FILENAME_PERBUILD_libHarfBuzzSharp.so_3]" Version="65535.65535.65535.65535" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_libHarfBuzzSharp.so_3&gt;" SelfReg="false"/>
+    <ROW File="libonigwrap.so_3" Component_="WinPDFPresenter_PublishOutput_runtimes_linuxx64_native" FileName="LIBONI~2.SO|[|AI_PROPPATH_FILENAME_PERBUILD_libonigwrap.so_3]" Version="65535.65535.65535.65535" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_libonigwrap.so_3&gt;" SelfReg="false"/>
+    <ROW File="libpdfium.so_5" Component_="WinPDFPresenter_PublishOutput_runtimes_linuxx64_native" FileName="LIBPDF~2.SO|[|AI_PROPPATH_FILENAME_PERBUILD_libpdfium.so_5]" Version="65535.65535.65535.65535" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_libpdfium.so_5&gt;" SelfReg="false"/>
+    <ROW File="libSkiaSharp.so_9" Component_="WinPDFPresenter_PublishOutput_runtimes_linuxx64_native" FileName="LIBSKI~2.SO|[|AI_PROPPATH_FILENAME_PERBUILD_libSkiaSharp.so_9]" Version="65535.65535.65535.65535" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_libSkiaSharp.so_9&gt;" SelfReg="false"/>
+    <ROW File="libpdfium.so_6" Component_="WinPDFPresenter_PublishOutput_runtimes_linuxx86_native" FileName="LIBPDF~2.SO|[|AI_PROPPATH_FILENAME_PERBUILD_libpdfium.so_6]" Version="65535.65535.65535.65535" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_libpdfium.so_6&gt;" SelfReg="false"/>
+    <ROW File="libSkiaSharp.so_10" Component_="WinPDFPresenter_PublishOutput_runtimes_linuxx86_native" FileName="LIBSKI~2.SO|[|AI_PROPPATH_FILENAME_PERBUILD_libSkiaSharp.so_10]" Version="65535.65535.65535.65535" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_libSkiaSharp.so_10&gt;" SelfReg="false"/>
+    <ROW File="libAvaloniaNative.dylib" Component_="WinPDFPresenter_PublishOutput_runtimes_osx_native" FileName="LIBAVA~2.DYL|[|AI_PROPPATH_FILENAME_PERBUILD_libAvaloniaNative.dylib]" Version="65535.65535.65535.65535" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_libAvaloniaNative.dylib&gt;" SelfReg="false"/>
+    <ROW File="libHarfBuzzSharp.dylib" Component_="WinPDFPresenter_PublishOutput_runtimes_osx_native" FileName="LIBHAR~2.DYL|[|AI_PROPPATH_FILENAME_PERBUILD_libHarfBuzzSharp.dylib]" Version="65535.65535.65535.65535" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_libHarfBuzzSharp.dylib&gt;" SelfReg="false"/>
+    <ROW File="libonigwrap.dylib" Component_="WinPDFPresenter_PublishOutput_runtimes_osx_native" FileName="LIBONI~2.DYL|[|AI_PROPPATH_FILENAME_PERBUILD_libonigwrap.dylib]" Version="65535.65535.65535.65535" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_libonigwrap.dylib&gt;" SelfReg="false"/>
+    <ROW File="libSkiaSharp.dylib" Component_="WinPDFPresenter_PublishOutput_runtimes_osx_native" FileName="LIBSKI~2.DYL|[|AI_PROPPATH_FILENAME_PERBUILD_libSkiaSharp.dylib]" Version="65535.65535.65535.65535" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_libSkiaSharp.dylib&gt;" SelfReg="false"/>
+    <ROW File="libpdfium.dylib" Component_="WinPDFPresenter_PublishOutput_runtimes_osxarm64_native" FileName="LIBPDF~2.DYL|[|AI_PROPPATH_FILENAME_PERBUILD_libpdfium.dylib]" Version="65535.65535.65535.65535" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_libpdfium.dylib&gt;" SelfReg="false"/>
+    <ROW File="libpdfium.dylib_1" Component_="WinPDFPresenter_PublishOutput_runtimes_osxx64_native" FileName="LIBPDF~2.DYL|[|AI_PROPPATH_FILENAME_PERBUILD_libpdfium.dylib_1]" Version="65535.65535.65535.65535" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_libpdfium.dylib_1&gt;" SelfReg="false"/>
+    <ROW File="av_libglesv2.dll" Component_="WinPDFPresenter_PublishOutput_runtimes_winarm64_native" FileName="AV_LIB~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_av_libglesv2.dll]" Version="65535.65535.65535.65535" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_av_libglesv2.dll&gt;" SelfReg="false"/>
+    <ROW File="libHarfBuzzSharp.dll" Component_="WinPDFPresenter_PublishOutput_runtimes_winarm64_native" FileName="LIBHAR~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_libHarfBuzzSharp.dll]" Version="65535.65535.65535.65535" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_libHarfBuzzSharp.dll&gt;" SelfReg="false"/>
+    <ROW File="libonigwrap.dll" Component_="WinPDFPresenter_PublishOutput_runtimes_winarm64_native" FileName="LIBONI~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_libonigwrap.dll]" Version="65535.65535.65535.65535" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_libonigwrap.dll&gt;" SelfReg="false"/>
+    <ROW File="libSkiaSharp.dll" Component_="WinPDFPresenter_PublishOutput_runtimes_winarm64_native" FileName="LIBSKI~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_libSkiaSharp.dll]" Version="65535.65535.65535.65535" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_libSkiaSharp.dll&gt;" SelfReg="false"/>
+    <ROW File="pdfium.dll" Component_="WinPDFPresenter_PublishOutput_runtimes_winarm64_native" FileName="[|AI_PROPPATH_FILENAME_PERBUILD_pdfium.dll]" Version="65535.65535.65535.65535" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_pdfium.dll&gt;" SelfReg="false"/>
+    <ROW File="av_libglesv2.dll_1" Component_="WinPDFPresenter_PublishOutput_runtimes_winx64_native" FileName="AV_LIB~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_av_libglesv2.dll_1]" Version="65535.65535.65535.65535" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_av_libglesv2.dll_1&gt;" SelfReg="false"/>
+    <ROW File="libHarfBuzzSharp.dll_1" Component_="WinPDFPresenter_PublishOutput_runtimes_winx64_native" FileName="LIBHAR~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_libHarfBuzzSharp.dll_1]" Version="65535.65535.65535.65535" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_libHarfBuzzSharp.dll_1&gt;" SelfReg="false"/>
+    <ROW File="libonigwrap.dll_1" Component_="WinPDFPresenter_PublishOutput_runtimes_winx64_native" FileName="LIBONI~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_libonigwrap.dll_1]" Version="65535.65535.65535.65535" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_libonigwrap.dll_1&gt;" SelfReg="false"/>
+    <ROW File="libSkiaSharp.dll_1" Component_="WinPDFPresenter_PublishOutput_runtimes_winx64_native" FileName="LIBSKI~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_libSkiaSharp.dll_1]" Version="65535.65535.65535.65535" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_libSkiaSharp.dll_1&gt;" SelfReg="false"/>
+    <ROW File="pdfium.dll_1" Component_="WinPDFPresenter_PublishOutput_runtimes_winx64_native" FileName="[|AI_PROPPATH_FILENAME_PERBUILD_pdfium.dll_1]" Version="65535.65535.65535.65535" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_pdfium.dll_1&gt;" SelfReg="false"/>
+    <ROW File="av_libglesv2.dll_2" Component_="WinPDFPresenter_PublishOutput_runtimes_winx86_native" FileName="AV_LIB~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_av_libglesv2.dll_2]" Version="65535.65535.65535.65535" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_av_libglesv2.dll_2&gt;" SelfReg="false"/>
+    <ROW File="libHarfBuzzSharp.dll_2" Component_="WinPDFPresenter_PublishOutput_runtimes_winx86_native" FileName="LIBHAR~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_libHarfBuzzSharp.dll_2]" Version="65535.65535.65535.65535" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_libHarfBuzzSharp.dll_2&gt;" SelfReg="false"/>
+    <ROW File="libonigwrap.dll_2" Component_="WinPDFPresenter_PublishOutput_runtimes_winx86_native" FileName="LIBONI~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_libonigwrap.dll_2]" Version="65535.65535.65535.65535" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_libonigwrap.dll_2&gt;" SelfReg="false"/>
+    <ROW File="libSkiaSharp.dll_2" Component_="WinPDFPresenter_PublishOutput_runtimes_winx86_native" FileName="LIBSKI~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_libSkiaSharp.dll_2]" Version="65535.65535.65535.65535" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_libSkiaSharp.dll_2&gt;" SelfReg="false"/>
+    <ROW File="pdfium.dll_2" Component_="WinPDFPresenter_PublishOutput_runtimes_winx86_native" FileName="[|AI_PROPPATH_FILENAME_PERBUILD_pdfium.dll_2]" Version="65535.65535.65535.65535" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_pdfium.dll_2&gt;" SelfReg="false"/>
+    <ROW File="System.Security.Cryptography.Pkcs.dll_1" Component_="WinPDFPresenter_PublishOutput_runtimes_win_lib_net8.0" FileName="SYSTEM~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_System.Security.Cryptography.Pkcs.dll_1]" Version="65535.65535.65535.65535" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_System.Security.Cryptography.Pkcs.dll_1&gt;" SelfReg="false"/>
+    <ROW File="Readme.rtf" Component_="Readme.rtf" FileName="Readme.rtf" Version="65535.65535.65535.65535" Attributes="0" SourcePath="..\WinPDFPresenter\Readme.rtf" SelfReg="false"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.AiPersistentPropComponent">
+    <ROW Property="AI_INSTALLPERUSER" Registry="AI_INSTALLPERUSER" HklmSearch="AI_INSTALLPERUSER" HkcuSearch="AI_INSTALLPERUSER_1"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.AppPathsComponent">
+    <ROW Name="AI_APPPATH_PERBUILD_Avalonia.Base.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Avalonia.Base.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Avalonia.Base.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Avalonia.Controls.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Avalonia.Controls.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Avalonia.Controls.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Avalonia.DesignerSupport.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Avalonia.DesignerSupport.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Avalonia.DesignerSupport.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Avalonia.Desktop.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Avalonia.Desktop.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Avalonia.Desktop.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Avalonia.Dialogs.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Avalonia.Dialogs.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Avalonia.Dialogs.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Avalonia.Fonts.Inter.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Avalonia.Fonts.Inter.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Avalonia.Fonts.Inter.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Avalonia.FreeDesktop.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Avalonia.FreeDesktop.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Avalonia.FreeDesktop.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Avalonia.Markup.Xaml.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Avalonia.Markup.Xaml.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Avalonia.Markup.Xaml.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Avalonia.Markup.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Avalonia.Markup.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Avalonia.Markup.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Avalonia.Metal.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Avalonia.Metal.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Avalonia.Metal.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Avalonia.MicroCom.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Avalonia.MicroCom.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Avalonia.MicroCom.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Avalonia.Native.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Avalonia.Native.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Avalonia.Native.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Avalonia.OpenGL.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Avalonia.OpenGL.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Avalonia.OpenGL.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Avalonia.ReactiveUI.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Avalonia.ReactiveUI.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Avalonia.ReactiveUI.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Avalonia.Remote.Protocol.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Avalonia.Remote.Protocol.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Avalonia.Remote.Protocol.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Avalonia.Skia.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Avalonia.Skia.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Avalonia.Skia.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Avalonia.Svg.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Avalonia.Svg.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Avalonia.Svg.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Avalonia.Themes.Fluent.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Avalonia.Themes.Fluent.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Avalonia.Themes.Fluent.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Avalonia.Vulkan.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Avalonia.Vulkan.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Avalonia.Vulkan.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Avalonia.Win32.Automation.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Avalonia.Win32.Automation.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Avalonia.Win32.Automation.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Avalonia.Win32.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Avalonia.Win32.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Avalonia.Win32.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Avalonia.X11.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Avalonia.X11.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Avalonia.X11.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Avalonia.Xaml.Interactions.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Avalonia.Xaml.Interactions.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Avalonia.Xaml.Interactions.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Avalonia.Xaml.Interactivity.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Avalonia.Xaml.Interactivity.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Avalonia.Xaml.Interactivity.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Avalonia.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Avalonia.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Avalonia.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_AvaloniaEdit.TextMate.Grammars.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_AvaloniaEdit.TextMate.Grammars.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_AvaloniaEdit.TextMate.Grammars.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_AvaloniaEdit.TextMate.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_AvaloniaEdit.TextMate.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_AvaloniaEdit.TextMate.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_AvaloniaEdit.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_AvaloniaEdit.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_AvaloniaEdit.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_ColorDocument.Avalonia.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_ColorDocument.Avalonia.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_ColorDocument.Avalonia.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_ColorTextBlock.Avalonia.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_ColorTextBlock.Avalonia.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_ColorTextBlock.Avalonia.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_CommunityToolkit.Mvvm.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_CommunityToolkit.Mvvm.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_CommunityToolkit.Mvvm.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_DynamicData.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_DynamicData.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_DynamicData.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_ExCSS.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_ExCSS.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_ExCSS.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Fizzler.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Fizzler.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Fizzler.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_HarfBuzzSharp.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_HarfBuzzSharp.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_HarfBuzzSharp.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_HtmlAgilityPack.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_HtmlAgilityPack.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_HtmlAgilityPack.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Markdown.Avalonia.Full.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Markdown.Avalonia.Full.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Markdown.Avalonia.Full.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Markdown.Avalonia.Html.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Markdown.Avalonia.Html.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Markdown.Avalonia.Html.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Markdown.Avalonia.Svg.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Markdown.Avalonia.Svg.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Markdown.Avalonia.Svg.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Markdown.Avalonia.SyntaxHigh.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Markdown.Avalonia.SyntaxHigh.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Markdown.Avalonia.SyntaxHigh.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Markdown.Avalonia.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Markdown.Avalonia.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Markdown.Avalonia.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_MicroCom.Runtime.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_MicroCom.Runtime.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_MicroCom.Runtime.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.Extensions.DependencyInjection.Abstractions.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.Extensions.DependencyInjection.Abstractions.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Extensions.DependencyInjection.Abstractions.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.Extensions.DependencyInjection.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.Extensions.DependencyInjection.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Extensions.DependencyInjection.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.Extensions.Logging.Abstractions.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.Extensions.Logging.Abstractions.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Extensions.Logging.Abstractions.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.Extensions.Logging.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.Extensions.Logging.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Extensions.Logging.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.Extensions.Options.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.Extensions.Options.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Extensions.Options.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.Extensions.Primitives.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.Extensions.Primitives.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Extensions.Primitives.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Newtonsoft.Json.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Newtonsoft.Json.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Newtonsoft.Json.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Onigwrap.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Onigwrap.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Onigwrap.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_PDFtoImage.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_PDFtoImage.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_PDFtoImage.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_PdfSharp.BarCodes.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_PdfSharp.BarCodes.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_PdfSharp.BarCodes.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_PdfSharp.Charting.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_PdfSharp.Charting.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_PdfSharp.Charting.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_PdfSharp.Cryptography.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_PdfSharp.Cryptography.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_PdfSharp.Cryptography.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_PdfSharp.Quality.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_PdfSharp.Quality.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_PdfSharp.Quality.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_PdfSharp.Shared.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_PdfSharp.Shared.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_PdfSharp.Shared.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_PdfSharp.Snippets.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_PdfSharp.Snippets.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_PdfSharp.Snippets.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_PdfSharp.System.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_PdfSharp.System.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_PdfSharp.System.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_PdfSharp.WPFonts.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_PdfSharp.WPFonts.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_PdfSharp.WPFonts.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_PdfSharp.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_PdfSharp.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_PdfSharp.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_ReactiveUI.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_ReactiveUI.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_ReactiveUI.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_ShimSkiaSharp.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_ShimSkiaSharp.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_ShimSkiaSharp.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_SkiaSharp.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_SkiaSharp.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_SkiaSharp.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Splat.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Splat.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Splat.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Svg.Custom.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Svg.Custom.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Svg.Custom.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Svg.Model.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Svg.Model.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Svg.Model.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_System.Reactive.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_System.Reactive.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_System.Reactive.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_System.Security.Cryptography.Pkcs.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_System.Security.Cryptography.Pkcs.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_System.Security.Cryptography.Pkcs.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_System.Security.Cryptography.Pkcs.dll_1" Path="[|AI_PROPPATH_DIR_PERBUILD_System.Security.Cryptography.Pkcs.dll_1]\[|AI_PROPPATH_FILENAME_PERBUILD_System.Security.Cryptography.Pkcs.dll_1]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_TextMateSharp.Grammars.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_TextMateSharp.Grammars.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_TextMateSharp.Grammars.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_TextMateSharp.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_TextMateSharp.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_TextMateSharp.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Tmds.DBus.Protocol.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Tmds.DBus.Protocol.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Tmds.DBus.Protocol.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_WinPDFPresenter.deps.json" Path="[|AI_PROPPATH_DIR_PERBUILD_WinPDFPresenter.deps.json]\[|AI_PROPPATH_FILENAME_PERBUILD_WinPDFPresenter.deps.json]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_WinPDFPresenter.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_WinPDFPresenter.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_WinPDFPresenter.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_WinPDFPresenter.exe" Path="[|AI_PROPPATH_DIR_PERBUILD_WinPDFPresenter.exe]\[|AI_PROPPATH_FILENAME_PERBUILD_WinPDFPresenter.exe]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_WinPDFPresenter.runtimeconfig.json" Path="[|AI_PROPPATH_DIR_PERBUILD_WinPDFPresenter.runtimeconfig.json]\[|AI_PROPPATH_FILENAME_PERBUILD_WinPDFPresenter.runtimeconfig.json]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_av_libglesv2.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_av_libglesv2.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_av_libglesv2.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_av_libglesv2.dll_1" Path="[|AI_PROPPATH_DIR_PERBUILD_av_libglesv2.dll_1]\[|AI_PROPPATH_FILENAME_PERBUILD_av_libglesv2.dll_1]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_av_libglesv2.dll_2" Path="[|AI_PROPPATH_DIR_PERBUILD_av_libglesv2.dll_2]\[|AI_PROPPATH_FILENAME_PERBUILD_av_libglesv2.dll_2]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_libAvaloniaNative.dylib" Path="[|AI_PROPPATH_DIR_PERBUILD_libAvaloniaNative.dylib]\[|AI_PROPPATH_FILENAME_PERBUILD_libAvaloniaNative.dylib]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_libHarfBuzzSharp.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_libHarfBuzzSharp.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_libHarfBuzzSharp.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_libHarfBuzzSharp.dll_1" Path="[|AI_PROPPATH_DIR_PERBUILD_libHarfBuzzSharp.dll_1]\[|AI_PROPPATH_FILENAME_PERBUILD_libHarfBuzzSharp.dll_1]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_libHarfBuzzSharp.dll_2" Path="[|AI_PROPPATH_DIR_PERBUILD_libHarfBuzzSharp.dll_2]\[|AI_PROPPATH_FILENAME_PERBUILD_libHarfBuzzSharp.dll_2]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_libHarfBuzzSharp.dylib" Path="[|AI_PROPPATH_DIR_PERBUILD_libHarfBuzzSharp.dylib]\[|AI_PROPPATH_FILENAME_PERBUILD_libHarfBuzzSharp.dylib]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_libHarfBuzzSharp.so" Path="[|AI_PROPPATH_DIR_PERBUILD_libHarfBuzzSharp.so]\[|AI_PROPPATH_FILENAME_PERBUILD_libHarfBuzzSharp.so]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_libHarfBuzzSharp.so_1" Path="[|AI_PROPPATH_DIR_PERBUILD_libHarfBuzzSharp.so_1]\[|AI_PROPPATH_FILENAME_PERBUILD_libHarfBuzzSharp.so_1]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_libHarfBuzzSharp.so_2" Path="[|AI_PROPPATH_DIR_PERBUILD_libHarfBuzzSharp.so_2]\[|AI_PROPPATH_FILENAME_PERBUILD_libHarfBuzzSharp.so_2]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_libHarfBuzzSharp.so_3" Path="[|AI_PROPPATH_DIR_PERBUILD_libHarfBuzzSharp.so_3]\[|AI_PROPPATH_FILENAME_PERBUILD_libHarfBuzzSharp.so_3]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_libSkiaSharp.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_libSkiaSharp.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_libSkiaSharp.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_libSkiaSharp.dll_1" Path="[|AI_PROPPATH_DIR_PERBUILD_libSkiaSharp.dll_1]\[|AI_PROPPATH_FILENAME_PERBUILD_libSkiaSharp.dll_1]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_libSkiaSharp.dll_2" Path="[|AI_PROPPATH_DIR_PERBUILD_libSkiaSharp.dll_2]\[|AI_PROPPATH_FILENAME_PERBUILD_libSkiaSharp.dll_2]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_libSkiaSharp.dylib" Path="[|AI_PROPPATH_DIR_PERBUILD_libSkiaSharp.dylib]\[|AI_PROPPATH_FILENAME_PERBUILD_libSkiaSharp.dylib]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_libSkiaSharp.so" Path="[|AI_PROPPATH_DIR_PERBUILD_libSkiaSharp.so]\[|AI_PROPPATH_FILENAME_PERBUILD_libSkiaSharp.so]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_libSkiaSharp.so_1" Path="[|AI_PROPPATH_DIR_PERBUILD_libSkiaSharp.so_1]\[|AI_PROPPATH_FILENAME_PERBUILD_libSkiaSharp.so_1]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_libSkiaSharp.so_10" Path="[|AI_PROPPATH_DIR_PERBUILD_libSkiaSharp.so_10]\[|AI_PROPPATH_FILENAME_PERBUILD_libSkiaSharp.so_10]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_libSkiaSharp.so_2" Path="[|AI_PROPPATH_DIR_PERBUILD_libSkiaSharp.so_2]\[|AI_PROPPATH_FILENAME_PERBUILD_libSkiaSharp.so_2]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_libSkiaSharp.so_3" Path="[|AI_PROPPATH_DIR_PERBUILD_libSkiaSharp.so_3]\[|AI_PROPPATH_FILENAME_PERBUILD_libSkiaSharp.so_3]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_libSkiaSharp.so_4" Path="[|AI_PROPPATH_DIR_PERBUILD_libSkiaSharp.so_4]\[|AI_PROPPATH_FILENAME_PERBUILD_libSkiaSharp.so_4]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_libSkiaSharp.so_5" Path="[|AI_PROPPATH_DIR_PERBUILD_libSkiaSharp.so_5]\[|AI_PROPPATH_FILENAME_PERBUILD_libSkiaSharp.so_5]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_libSkiaSharp.so_6" Path="[|AI_PROPPATH_DIR_PERBUILD_libSkiaSharp.so_6]\[|AI_PROPPATH_FILENAME_PERBUILD_libSkiaSharp.so_6]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_libSkiaSharp.so_7" Path="[|AI_PROPPATH_DIR_PERBUILD_libSkiaSharp.so_7]\[|AI_PROPPATH_FILENAME_PERBUILD_libSkiaSharp.so_7]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_libSkiaSharp.so_8" Path="[|AI_PROPPATH_DIR_PERBUILD_libSkiaSharp.so_8]\[|AI_PROPPATH_FILENAME_PERBUILD_libSkiaSharp.so_8]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_libSkiaSharp.so_9" Path="[|AI_PROPPATH_DIR_PERBUILD_libSkiaSharp.so_9]\[|AI_PROPPATH_FILENAME_PERBUILD_libSkiaSharp.so_9]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_libonigwrap.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_libonigwrap.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_libonigwrap.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_libonigwrap.dll_1" Path="[|AI_PROPPATH_DIR_PERBUILD_libonigwrap.dll_1]\[|AI_PROPPATH_FILENAME_PERBUILD_libonigwrap.dll_1]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_libonigwrap.dll_2" Path="[|AI_PROPPATH_DIR_PERBUILD_libonigwrap.dll_2]\[|AI_PROPPATH_FILENAME_PERBUILD_libonigwrap.dll_2]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_libonigwrap.dylib" Path="[|AI_PROPPATH_DIR_PERBUILD_libonigwrap.dylib]\[|AI_PROPPATH_FILENAME_PERBUILD_libonigwrap.dylib]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_libonigwrap.so" Path="[|AI_PROPPATH_DIR_PERBUILD_libonigwrap.so]\[|AI_PROPPATH_FILENAME_PERBUILD_libonigwrap.so]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_libonigwrap.so_1" Path="[|AI_PROPPATH_DIR_PERBUILD_libonigwrap.so_1]\[|AI_PROPPATH_FILENAME_PERBUILD_libonigwrap.so_1]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_libonigwrap.so_2" Path="[|AI_PROPPATH_DIR_PERBUILD_libonigwrap.so_2]\[|AI_PROPPATH_FILENAME_PERBUILD_libonigwrap.so_2]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_libonigwrap.so_3" Path="[|AI_PROPPATH_DIR_PERBUILD_libonigwrap.so_3]\[|AI_PROPPATH_FILENAME_PERBUILD_libonigwrap.so_3]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_libpdfium.dylib" Path="[|AI_PROPPATH_DIR_PERBUILD_libpdfium.dylib]\[|AI_PROPPATH_FILENAME_PERBUILD_libpdfium.dylib]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_libpdfium.dylib_1" Path="[|AI_PROPPATH_DIR_PERBUILD_libpdfium.dylib_1]\[|AI_PROPPATH_FILENAME_PERBUILD_libpdfium.dylib_1]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_libpdfium.so" Path="[|AI_PROPPATH_DIR_PERBUILD_libpdfium.so]\[|AI_PROPPATH_FILENAME_PERBUILD_libpdfium.so]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_libpdfium.so_1" Path="[|AI_PROPPATH_DIR_PERBUILD_libpdfium.so_1]\[|AI_PROPPATH_FILENAME_PERBUILD_libpdfium.so_1]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_libpdfium.so_2" Path="[|AI_PROPPATH_DIR_PERBUILD_libpdfium.so_2]\[|AI_PROPPATH_FILENAME_PERBUILD_libpdfium.so_2]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_libpdfium.so_3" Path="[|AI_PROPPATH_DIR_PERBUILD_libpdfium.so_3]\[|AI_PROPPATH_FILENAME_PERBUILD_libpdfium.so_3]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_libpdfium.so_4" Path="[|AI_PROPPATH_DIR_PERBUILD_libpdfium.so_4]\[|AI_PROPPATH_FILENAME_PERBUILD_libpdfium.so_4]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_libpdfium.so_5" Path="[|AI_PROPPATH_DIR_PERBUILD_libpdfium.so_5]\[|AI_PROPPATH_FILENAME_PERBUILD_libpdfium.so_5]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_libpdfium.so_6" Path="[|AI_PROPPATH_DIR_PERBUILD_libpdfium.so_6]\[|AI_PROPPATH_FILENAME_PERBUILD_libpdfium.so_6]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_pdfium.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_pdfium.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_pdfium.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_pdfium.dll_1" Path="[|AI_PROPPATH_DIR_PERBUILD_pdfium.dll_1]\[|AI_PROPPATH_FILENAME_PERBUILD_pdfium.dll_1]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_pdfium.dll_2" Path="[|AI_PROPPATH_DIR_PERBUILD_pdfium.dll_2]\[|AI_PROPPATH_FILENAME_PERBUILD_pdfium.dll_2]" Type="2" Content="0"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.BootstrapperUISequenceComponent">
+    <ROW Action="AI_DetectSoftware" Sequence="151"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.BuildComponent">
+    <ROW BuildKey="DefaultBuild" BuildName="DefaultBuild" BuildOrder="1" BuildType="0" Languages="en" InstallationType="4" SummInfoMetadata="Page Count:450" UseLargeSchema="true"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.DictionaryComponent">
+    <ROW Path="&lt;AI_DICTS&gt;ui.ail"/>
+    <ROW Path="&lt;AI_DICTS&gt;ui_en.ail"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.FragmentComponent">
+    <ROW Fragment="CommonUI.aip" Path="&lt;AI_FRAGS&gt;CommonUI.aip"/>
+    <ROW Fragment="FolderDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\FolderDlg.aip"/>
+    <ROW Fragment="InstallTypeDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\InstallTypeDlg.aip"/>
+    <ROW Fragment="MaintenanceTypeDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\MaintenanceTypeDlg.aip"/>
+    <ROW Fragment="MaintenanceWelcomeDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\MaintenanceWelcomeDlg.aip"/>
+    <ROW Fragment="ReadmeDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\ReadmeDlg.aip"/>
+    <ROW Fragment="SequenceDialogs.aip" Path="&lt;AI_THEMES&gt;classic\fragments\SequenceDialogs.aip"/>
+    <ROW Fragment="Sequences.aip" Path="&lt;AI_FRAGS&gt;Sequences.aip"/>
+    <ROW Fragment="StaticUIStrings.aip" Path="&lt;AI_FRAGS&gt;StaticUIStrings.aip"/>
+    <ROW Fragment="Themes.aip" Path="&lt;AI_FRAGS&gt;Themes.aip"/>
+    <ROW Fragment="UI.aip" Path="&lt;AI_THEMES&gt;classic\fragments\UI.aip"/>
+    <ROW Fragment="Validation.aip" Path="&lt;AI_FRAGS&gt;Validation.aip"/>
+    <ROW Fragment="VerifyRemoveDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\VerifyRemoveDlg.aip"/>
+    <ROW Fragment="VerifyRepairDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\VerifyRepairDlg.aip"/>
+    <ROW Fragment="WelcomeDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\WelcomeDlg.aip"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiAppSearchComponent">
+    <ROW Property="AI_INSTALLPERUSER" Signature_="AI_INSTALLPERUSER"/>
+    <ROW Property="AI_INSTALLPERUSER" Signature_="AI_INSTALLPERUSER_1"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiBinaryComponent">
+    <ROW Name="SoftwareDetector.dll" SourcePath="&lt;AI_CUSTACTS&gt;SoftwareDetector.dll"/>
+    <ROW Name="aicustact.dll" SourcePath="&lt;AI_CUSTACTS&gt;aicustact.dll"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlComponent">
+    <ROW Dialog_="ReadmeDlg" Control="ReadmeText" Type="ScrollableText" X="20" Y="60" Width="330" Height="150" Attributes="7" Text="..\WinPDFPresenter\Readme.rtf" Order="400" TextLocId="Control.Text.ReadmeDlg#ReadmeText" MsiKey="ReadmeDlg#ReadmeText"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlEventComponent">
+    <ROW Dialog_="WelcomeDlg" Control_="Next" Event="NewDialog" Argument="InstallTypeDlg" Condition="AI_INSTALL" Ordering="1"/>
+    <ROW Dialog_="FolderDlg" Control_="Next" Event="NewDialog" Argument="VerifyReadyDlg" Condition="AI_INSTALL" Ordering="201"/>
+    <ROW Dialog_="FolderDlg" Control_="Back" Event="NewDialog" Argument="ReadmeDlg" Condition="AI_INSTALL" Ordering="1"/>
+    <ROW Dialog_="MaintenanceWelcomeDlg" Control_="Next" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT" Ordering="99"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_MAINT" Ordering="198"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Back" Event="NewDialog" Argument="CustomizeDlg" Condition="AI_MAINT" Ordering="202"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_INSTALL" Ordering="197"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Back" Event="NewDialog" Argument="FolderDlg" Condition="AI_INSTALL" Ordering="201"/>
+    <ROW Dialog_="CustomizeDlg" Control_="Next" Event="NewDialog" Argument="VerifyReadyDlg" Condition="AI_MAINT" Ordering="101"/>
+    <ROW Dialog_="CustomizeDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT" Ordering="1"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="ChangeButton" Event="NewDialog" Argument="CustomizeDlg" Condition="AI_MAINT" Ordering="501"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceWelcomeDlg" Condition="AI_MAINT" Ordering="1"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="RemoveButton" Event="NewDialog" Argument="VerifyRemoveDlg" Condition="AI_MAINT AND InstallMode=&quot;Remove&quot;" Ordering="601"/>
+    <ROW Dialog_="VerifyRemoveDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT AND InstallMode=&quot;Remove&quot;" Ordering="1"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="RepairButton" Event="NewDialog" Argument="VerifyRepairDlg" Condition="AI_MAINT AND InstallMode=&quot;Repair&quot;" Ordering="601"/>
+    <ROW Dialog_="VerifyRepairDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT AND InstallMode=&quot;Repair&quot;" Ordering="1"/>
+    <ROW Dialog_="VerifyRepairDlg" Control_="Repair" Event="EndDialog" Argument="Return" Condition="AI_MAINT AND InstallMode=&quot;Repair&quot;" Ordering="399" Options="1"/>
+    <ROW Dialog_="VerifyRemoveDlg" Control_="Remove" Event="EndDialog" Argument="Return" Condition="AI_MAINT AND InstallMode=&quot;Remove&quot;" Ordering="299" Options="1"/>
+    <ROW Dialog_="PatchWelcomeDlg" Control_="Next" Event="NewDialog" Argument="VerifyReadyDlg" Condition="AI_PATCH" Ordering="201"/>
+    <ROW Dialog_="ResumeDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_RESUME" Ordering="299"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_PATCH" Ordering="199"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Back" Event="NewDialog" Argument="PatchWelcomeDlg" Condition="AI_PATCH" Ordering="203"/>
+    <ROW Dialog_="ReadmeDlg" Control_="Next" Event="NewDialog" Argument="FolderDlg" Condition="AI_INSTALL" Ordering="1"/>
+    <ROW Dialog_="ReadmeDlg" Control_="Back" Event="NewDialog" Argument="InstallTypeDlg" Condition="AI_INSTALL" Ordering="1"/>
+    <ROW Dialog_="InstallTypeDlg" Control_="Next" Event="NewDialog" Argument="ReadmeDlg" Condition="AI_INSTALL" Ordering="101"/>
+    <ROW Dialog_="InstallTypeDlg" Control_="Back" Event="NewDialog" Argument="WelcomeDlg" Condition="AI_INSTALL" Ordering="1"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiCreateFolderComponent">
+    <ROW Directory_="APPDIR" Component_="APPDIR" ManualDelete="true"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiCustActComponent">
+    <ROW Action="AI_AuthorSinglePackage" Type="1" Source="aicustact.dll" Target="AI_AuthorSinglePackage" WithoutSeq="true"/>
+    <ROW Action="AI_DOWNGRADE" Type="19" Target="4010"/>
+    <ROW Action="AI_DetectSoftware" Type="257" Source="SoftwareDetector.dll" Target="OnDetectSoftware"/>
+    <ROW Action="AI_DpiContentScale" Type="1" Source="aicustact.dll" Target="DpiContentScale"/>
+    <ROW Action="AI_EnableDebugLog" Type="321" Source="aicustact.dll" Target="EnableDebugLog"/>
+    <ROW Action="AI_InstallModeCheck" Type="1" Source="aicustact.dll" Target="UpdateInstallMode" WithoutSeq="true"/>
+    <ROW Action="AI_LaunchApp" Type="1" Source="aicustact.dll" Target="LaunchApp"/>
+    <ROW Action="AI_PREPARE_UPGRADE" Type="65" Source="aicustact.dll" Target="PrepareUpgrade"/>
+    <ROW Action="AI_PRESERVE_INSTALL_TYPE" Type="65" Source="aicustact.dll" Target="PreserveInstallType"/>
+    <ROW Action="AI_RESTORE_LOCATION" Type="65" Source="aicustact.dll" Target="RestoreLocation"/>
+    <ROW Action="AI_ResolveKnownFolders" Type="1" Source="aicustact.dll" Target="AI_ResolveKnownFolders"/>
+    <ROW Action="AI_SETMIXINSTLOCATION" Type="1" Source="aicustact.dll" Target="MixedAllUsersInstallLocation"/>
+    <ROW Action="AI_SHOW_LOG" Type="65" Source="aicustact.dll" Target="LaunchLogFile" WithoutSeq="true"/>
+    <ROW Action="AI_STORE_LOCATION" Type="51" Source="ARPINSTALLLOCATION" Target="[APPDIR]"/>
+    <ROW Action="AI_ViewReadme" Type="1" Source="aicustact.dll" Target="ViewReadMe"/>
+    <ROW Action="SET_APPDIR" Type="307" Source="APPDIR" Target="[ProgramFilesFolder][Manufacturer]\[ProductName]" MultiBuildTarget="DefaultBuild:[AI_UserProgramFiles][Manufacturer]\[ProductName]"/>
+    <ROW Action="SET_SHORTCUTDIR" Type="307" Source="SHORTCUTDIR" Target="[ProgramMenuFolder][ProductName]"/>
+    <ROW Action="SET_TARGETDIR_TO_APPDIR" Type="51" Source="TARGETDIR" Target="[APPDIR]"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiFeatCompsComponent">
+    <ROW Feature_="MainFeature" Component_="APPDIR"/>
+    <ROW Feature_="MainFeature" Component_="ProductInformation"/>
+    <ROW Feature_="MainFeature" Component_="WinPDFPresenter_PrimaryOutput"/>
+    <ROW Feature_="MainFeature" Component_="WinPDFPresenter_PublishOutput"/>
+    <ROW Feature_="MainFeature" Component_="WinPDFPresenter_PublishOutput_runtimes_linuxarm_native"/>
+    <ROW Feature_="MainFeature" Component_="WinPDFPresenter_PublishOutput_runtimes_linuxarm64_native"/>
+    <ROW Feature_="MainFeature" Component_="WinPDFPresenter_PublishOutput_runtimes_linuxloongarch64_native"/>
+    <ROW Feature_="MainFeature" Component_="WinPDFPresenter_PublishOutput_runtimes_linuxmuslarm_native"/>
+    <ROW Feature_="MainFeature" Component_="WinPDFPresenter_PublishOutput_runtimes_linuxmuslarm64_native"/>
+    <ROW Feature_="MainFeature" Component_="WinPDFPresenter_PublishOutput_runtimes_linuxmuslloongarch64_native"/>
+    <ROW Feature_="MainFeature" Component_="WinPDFPresenter_PublishOutput_runtimes_linuxmuslriscv64_native"/>
+    <ROW Feature_="MainFeature" Component_="WinPDFPresenter_PublishOutput_runtimes_linuxmuslx64_native"/>
+    <ROW Feature_="MainFeature" Component_="WinPDFPresenter_PublishOutput_runtimes_linuxmuslx86_native"/>
+    <ROW Feature_="MainFeature" Component_="WinPDFPresenter_PublishOutput_runtimes_linuxriscv64_native"/>
+    <ROW Feature_="MainFeature" Component_="WinPDFPresenter_PublishOutput_runtimes_linuxx64_native"/>
+    <ROW Feature_="MainFeature" Component_="WinPDFPresenter_PublishOutput_runtimes_linuxx86_native"/>
+    <ROW Feature_="MainFeature" Component_="WinPDFPresenter_PublishOutput_runtimes_osx_native"/>
+    <ROW Feature_="MainFeature" Component_="WinPDFPresenter_PublishOutput_runtimes_osxarm64_native"/>
+    <ROW Feature_="MainFeature" Component_="WinPDFPresenter_PublishOutput_runtimes_osxx64_native"/>
+    <ROW Feature_="MainFeature" Component_="WinPDFPresenter_PublishOutput_runtimes_winarm64_native"/>
+    <ROW Feature_="MainFeature" Component_="WinPDFPresenter_PublishOutput_runtimes_winx64_native"/>
+    <ROW Feature_="MainFeature" Component_="WinPDFPresenter_PublishOutput_runtimes_winx86_native"/>
+    <ROW Feature_="MainFeature" Component_="WinPDFPresenter_PublishOutput_runtimes_win_lib_net8.0"/>
+    <ROW Feature_="MainFeature" Component_="Readme.rtf"/>
+    <ROW Feature_="MainFeature" Component_="AI_INSTALLPERUSER"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiIconsComponent">
+    <ROW Name="presenterlogo.exe" SourcePath="..\WinPDFPresenter\Assets\presenter-logo.ico" Index="0"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiInstExSeqComponent">
+    <ROW Action="AI_DOWNGRADE" Condition="AI_NEWERPRODUCTFOUND AND (UILevel &lt;&gt; 5)" Sequence="210"/>
+    <ROW Action="AI_RESTORE_LOCATION" Condition="APPDIR=&quot;&quot;" Sequence="749"/>
+    <ROW Action="AI_STORE_LOCATION" Condition="(Not Installed) OR REINSTALL" Sequence="1501"/>
+    <ROW Action="AI_PREPARE_UPGRADE" Condition="AI_UPGRADE=&quot;No&quot; AND (Not Installed)" Sequence="1399"/>
+    <ROW Action="AI_ResolveKnownFolders" Sequence="52"/>
+    <ROW Action="AI_EnableDebugLog" Sequence="51"/>
+    <ROW Action="AI_DetectSoftware" Sequence="101"/>
+    <ROW Action="AI_SETMIXINSTLOCATION" Sequence="748"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiInstallUISequenceComponent">
+    <ROW Action="AI_PRESERVE_INSTALL_TYPE" Sequence="199"/>
+    <ROW Action="AI_RESTORE_LOCATION" Condition="APPDIR=&quot;&quot;" Sequence="749"/>
+    <ROW Action="AI_ResolveKnownFolders" Sequence="53"/>
+    <ROW Action="AI_DpiContentScale" Sequence="52"/>
+    <ROW Action="AI_EnableDebugLog" Sequence="51"/>
+    <ROW Action="AI_DetectSoftware" Sequence="101"/>
+    <ROW Action="AI_SETMIXINSTLOCATION" Sequence="748"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiLaunchConditionsComponent">
+    <ROW Condition="( Version9X OR ( NOT VersionNT64 ) OR ( VersionNT64 AND ((VersionNT64 &lt;&gt; 601) OR (MsiNTProductType = 1)) AND ((VersionNT64 &lt;&gt; 602) OR (MsiNTProductType = 1)) AND ((VersionNT64 &lt;&gt; 603) OR (MsiNTProductType = 1)) AND ((VersionNT64 &lt;&gt; 1000 AND VersionNT64 &lt;&gt; 1100) OR (MsiNTProductType = 1)) ) )" Description="[ProductName] cannot be installed on the following Windows versions: [WindowsTypeNT64Display]." DescriptionLocId="AI.LaunchCondition.NoSpecificNT64" IsPredefined="true" Builds="DefaultBuild"/>
+    <ROW Condition="((VersionNT &lt;&gt; 501) AND (VersionNT &lt;&gt; 502))" Description="[ProductName] cannot be installed on [WindowsTypeNT5XDisplay]." DescriptionLocId="AI.LaunchCondition.NoNT5X" IsPredefined="true" Builds="DefaultBuild"/>
+    <ROW Condition="(VersionNT &lt;&gt; 400)" Description="[ProductName] cannot be installed on [WindowsTypeNT40Display]." DescriptionLocId="AI.LaunchCondition.NoNT40" IsPredefined="true" Builds="DefaultBuild"/>
+    <ROW Condition="(VersionNT &lt;&gt; 500)" Description="[ProductName] cannot be installed on [WindowsTypeNT50Display]." DescriptionLocId="AI.LaunchCondition.NoNT50" IsPredefined="true" Builds="DefaultBuild"/>
+    <ROW Condition="(VersionNT &lt;&gt; 600)" Description="[ProductName] cannot be installed on [WindowsTypeNT60Display]." DescriptionLocId="AI.LaunchCondition.NoNT60" IsPredefined="true" Builds="DefaultBuild"/>
+    <ROW Condition="AI_DETECTED_DOTNET_CORE_VERSION &gt;= AI_REQUIRED_DOTNET_CORE_VERSION" Description="[ProductName] cannot be installed on systems with .NET Core version lower than [AI_REQUIRED_DOTNET_CORE_DISPLAY]." DescriptionLocId="AI.LaunchCondition.DotNETCore" IsPredefined="true" Builds="DefaultBuild"/>
+    <ROW Condition="AI_DETECTED_DOTNET_VERSION &gt;= AI_REQUIRED_DOTNET_VERSION" Description="[ProductName] cannot be installed on systems with .NET Framework version lower than [AI_REQUIRED_DOTNET_DISPLAY]." DescriptionLocId="AI.LaunchCondition.DotNET" IsPredefined="true" Builds="DefaultBuild"/>
+    <ROW Condition="VersionNT" Description="[ProductName] cannot be installed on [WindowsType9XDisplay]." DescriptionLocId="AI.LaunchCondition.No9X" IsPredefined="true" Builds="DefaultBuild"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiRegLocatorComponent">
+    <ROW Signature_="AI_INSTALLPERUSER" Root="2" Key="Software\[Manufacturer]\[UpgradeCode]" Name="AI_INSTALLPERUSER" Type="2"/>
+    <ROW Signature_="AI_INSTALLPERUSER_1" Root="1" Key="Software\[Manufacturer]\[UpgradeCode]" Name="AI_INSTALLPERUSER" Type="2"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiRegsComponent">
+    <ROW Registry="AI_INSTALLPERUSER" Root="-1" Key="Software\[Manufacturer]\[UpgradeCode]" Name="AI_INSTALLPERUSER" Value="[AI_INSTALLPERUSER]" Component_="AI_INSTALLPERUSER"/>
+    <ROW Registry="Manufacturer" Root="-1" Key="Software\[Manufacturer]" Name="\"/>
+    <ROW Registry="Path" Root="-1" Key="Software\[Manufacturer]\[ProductName]" Name="Path" Value="[APPDIR]" Component_="ProductInformation"/>
+    <ROW Registry="ProductName" Root="-1" Key="Software\[Manufacturer]\[ProductName]" Name="\"/>
+    <ROW Registry="Software" Root="-1" Key="Software" Name="\"/>
+    <ROW Registry="UpgradeCode" Root="-1" Key="Software\[Manufacturer]\[UpgradeCode]" Name="\"/>
+    <ROW Registry="Version" Root="-1" Key="Software\[Manufacturer]\[ProductName]" Name="Version" Value="[ProductVersion]" Component_="ProductInformation"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiShortsComponent">
+    <ROW Shortcut="AI_PROPPATH_FILENAME_PERBUILD_WinPD" Directory_="DesktopFolder" Name="WINPDF~1.EXE|[|AI_PROPPATH_FILENAME_PERBUILD_WinPDFPresenter.exe]" Component_="WinPDFPresenter_PublishOutput" Target="[#WinPDFPresenter.exe]" Description="Present PDFs like in PowerPoint" Hotkey="0" Icon_="presenterlogo.exe" IconIndex="0" ShowCmd="1" WkDir="WinPDFPresenter_Dir"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiThemeComponent">
+    <ATTRIBUTE name="UsedTheme" value="classic"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiUpgradeComponent">
+    <ROW UpgradeCode="[|UpgradeCode]" VersionMin="0.0.1" VersionMax="[|ProductVersion]" Attributes="257" ActionProperty="OLDPRODUCTS"/>
+    <ROW UpgradeCode="[|UpgradeCode]" VersionMin="[|ProductVersion]" Attributes="2" ActionProperty="AI_NEWERPRODUCTFOUND"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.VsProjectComponent">
+    <ROW ProjectId="{5fe07e15-fd89-4ef4-97ba-06db0d4f8215}" ProjectName="WinPDFPresenter" OutputGroup="PublishOutput" OutputFile="Avalonia.Base.dll"/>
+    <ROW ProjectId="{5fe07e15-fd89-4ef4-97ba-06db0d4f8215}" ProjectName="WinPDFPresenter" OutputGroup="PublishOutput" OutputFile="Avalonia.Controls.dll"/>
+    <ROW ProjectId="{5fe07e15-fd89-4ef4-97ba-06db0d4f8215}" ProjectName="WinPDFPresenter" OutputGroup="PublishOutput" OutputFile="Avalonia.DesignerSupport.dll"/>
+    <ROW ProjectId="{5fe07e15-fd89-4ef4-97ba-06db0d4f8215}" ProjectName="WinPDFPresenter" OutputGroup="PublishOutput" OutputFile="Avalonia.Desktop.dll"/>
+    <ROW ProjectId="{5fe07e15-fd89-4ef4-97ba-06db0d4f8215}" ProjectName="WinPDFPresenter" OutputGroup="PublishOutput" OutputFile="Avalonia.Dialogs.dll"/>
+    <ROW ProjectId="{5fe07e15-fd89-4ef4-97ba-06db0d4f8215}" ProjectName="WinPDFPresenter" OutputGroup="PublishOutput" OutputFile="Avalonia.dll"/>
+    <ROW ProjectId="{5fe07e15-fd89-4ef4-97ba-06db0d4f8215}" ProjectName="WinPDFPresenter" OutputGroup="PublishOutput" OutputFile="Avalonia.Fonts.Inter.dll"/>
+    <ROW ProjectId="{5fe07e15-fd89-4ef4-97ba-06db0d4f8215}" ProjectName="WinPDFPresenter" OutputGroup="PublishOutput" OutputFile="Avalonia.FreeDesktop.dll"/>
+    <ROW ProjectId="{5fe07e15-fd89-4ef4-97ba-06db0d4f8215}" ProjectName="WinPDFPresenter" OutputGroup="PublishOutput" OutputFile="Avalonia.Markup.dll"/>
+    <ROW ProjectId="{5fe07e15-fd89-4ef4-97ba-06db0d4f8215}" ProjectName="WinPDFPresenter" OutputGroup="PublishOutput" OutputFile="Avalonia.Markup.Xaml.dll"/>
+    <ROW ProjectId="{5fe07e15-fd89-4ef4-97ba-06db0d4f8215}" ProjectName="WinPDFPresenter" OutputGroup="PublishOutput" OutputFile="Avalonia.Metal.dll"/>
+    <ROW ProjectId="{5fe07e15-fd89-4ef4-97ba-06db0d4f8215}" ProjectName="WinPDFPresenter" OutputGroup="PublishOutput" OutputFile="Avalonia.MicroCom.dll"/>
+    <ROW ProjectId="{5fe07e15-fd89-4ef4-97ba-06db0d4f8215}" ProjectName="WinPDFPresenter" OutputGroup="PublishOutput" OutputFile="Avalonia.Native.dll"/>
+    <ROW ProjectId="{5fe07e15-fd89-4ef4-97ba-06db0d4f8215}" ProjectName="WinPDFPresenter" OutputGroup="PublishOutput" OutputFile="Avalonia.OpenGL.dll"/>
+    <ROW ProjectId="{5fe07e15-fd89-4ef4-97ba-06db0d4f8215}" ProjectName="WinPDFPresenter" OutputGroup="PublishOutput" OutputFile="Avalonia.ReactiveUI.dll"/>
+    <ROW ProjectId="{5fe07e15-fd89-4ef4-97ba-06db0d4f8215}" ProjectName="WinPDFPresenter" OutputGroup="PublishOutput" OutputFile="Avalonia.Remote.Protocol.dll"/>
+    <ROW ProjectId="{5fe07e15-fd89-4ef4-97ba-06db0d4f8215}" ProjectName="WinPDFPresenter" OutputGroup="PublishOutput" OutputFile="Avalonia.Skia.dll"/>
+    <ROW ProjectId="{5fe07e15-fd89-4ef4-97ba-06db0d4f8215}" ProjectName="WinPDFPresenter" OutputGroup="PublishOutput" OutputFile="Avalonia.Svg.dll"/>
+    <ROW ProjectId="{5fe07e15-fd89-4ef4-97ba-06db0d4f8215}" ProjectName="WinPDFPresenter" OutputGroup="PublishOutput" OutputFile="Avalonia.Themes.Fluent.dll"/>
+    <ROW ProjectId="{5fe07e15-fd89-4ef4-97ba-06db0d4f8215}" ProjectName="WinPDFPresenter" OutputGroup="PublishOutput" OutputFile="Avalonia.Vulkan.dll"/>
+    <ROW ProjectId="{5fe07e15-fd89-4ef4-97ba-06db0d4f8215}" ProjectName="WinPDFPresenter" OutputGroup="PublishOutput" OutputFile="Avalonia.Win32.Automation.dll"/>
+    <ROW ProjectId="{5fe07e15-fd89-4ef4-97ba-06db0d4f8215}" ProjectName="WinPDFPresenter" OutputGroup="PublishOutput" OutputFile="Avalonia.Win32.dll"/>
+    <ROW ProjectId="{5fe07e15-fd89-4ef4-97ba-06db0d4f8215}" ProjectName="WinPDFPresenter" OutputGroup="PublishOutput" OutputFile="Avalonia.X11.dll"/>
+    <ROW ProjectId="{5fe07e15-fd89-4ef4-97ba-06db0d4f8215}" ProjectName="WinPDFPresenter" OutputGroup="PublishOutput" OutputFile="Avalonia.Xaml.Interactions.dll"/>
+    <ROW ProjectId="{5fe07e15-fd89-4ef4-97ba-06db0d4f8215}" ProjectName="WinPDFPresenter" OutputGroup="PublishOutput" OutputFile="Avalonia.Xaml.Interactivity.dll"/>
+    <ROW ProjectId="{5fe07e15-fd89-4ef4-97ba-06db0d4f8215}" ProjectName="WinPDFPresenter" OutputGroup="PublishOutput" OutputFile="AvaloniaEdit.dll"/>
+    <ROW ProjectId="{5fe07e15-fd89-4ef4-97ba-06db0d4f8215}" ProjectName="WinPDFPresenter" OutputGroup="PublishOutput" OutputFile="AvaloniaEdit.TextMate.dll"/>
+    <ROW ProjectId="{5fe07e15-fd89-4ef4-97ba-06db0d4f8215}" ProjectName="WinPDFPresenter" OutputGroup="PublishOutput" OutputFile="AvaloniaEdit.TextMate.Grammars.dll"/>
+    <ROW ProjectId="{5fe07e15-fd89-4ef4-97ba-06db0d4f8215}" ProjectName="WinPDFPresenter" OutputGroup="PublishOutput" OutputFile="ColorDocument.Avalonia.dll"/>
+    <ROW ProjectId="{5fe07e15-fd89-4ef4-97ba-06db0d4f8215}" ProjectName="WinPDFPresenter" OutputGroup="PublishOutput" OutputFile="ColorTextBlock.Avalonia.dll"/>
+    <ROW ProjectId="{5fe07e15-fd89-4ef4-97ba-06db0d4f8215}" ProjectName="WinPDFPresenter" OutputGroup="PublishOutput" OutputFile="CommunityToolkit.Mvvm.dll"/>
+    <ROW ProjectId="{5fe07e15-fd89-4ef4-97ba-06db0d4f8215}" ProjectName="WinPDFPresenter" OutputGroup="PublishOutput" OutputFile="DynamicData.dll"/>
+    <ROW ProjectId="{5fe07e15-fd89-4ef4-97ba-06db0d4f8215}" ProjectName="WinPDFPresenter" OutputGroup="PublishOutput" OutputFile="ExCSS.dll"/>
+    <ROW ProjectId="{5fe07e15-fd89-4ef4-97ba-06db0d4f8215}" ProjectName="WinPDFPresenter" OutputGroup="PublishOutput" OutputFile="Fizzler.dll"/>
+    <ROW ProjectId="{5fe07e15-fd89-4ef4-97ba-06db0d4f8215}" ProjectName="WinPDFPresenter" OutputGroup="PublishOutput" OutputFile="HarfBuzzSharp.dll"/>
+    <ROW ProjectId="{5fe07e15-fd89-4ef4-97ba-06db0d4f8215}" ProjectName="WinPDFPresenter" OutputGroup="PublishOutput" OutputFile="HtmlAgilityPack.dll"/>
+    <ROW ProjectId="{5fe07e15-fd89-4ef4-97ba-06db0d4f8215}" ProjectName="WinPDFPresenter" OutputGroup="PublishOutput" OutputFile="Markdown.Avalonia.dll"/>
+    <ROW ProjectId="{5fe07e15-fd89-4ef4-97ba-06db0d4f8215}" ProjectName="WinPDFPresenter" OutputGroup="PublishOutput" OutputFile="Markdown.Avalonia.Full.dll"/>
+    <ROW ProjectId="{5fe07e15-fd89-4ef4-97ba-06db0d4f8215}" ProjectName="WinPDFPresenter" OutputGroup="PublishOutput" OutputFile="Markdown.Avalonia.Html.dll"/>
+    <ROW ProjectId="{5fe07e15-fd89-4ef4-97ba-06db0d4f8215}" ProjectName="WinPDFPresenter" OutputGroup="PublishOutput" OutputFile="Markdown.Avalonia.Svg.dll"/>
+    <ROW ProjectId="{5fe07e15-fd89-4ef4-97ba-06db0d4f8215}" ProjectName="WinPDFPresenter" OutputGroup="PublishOutput" OutputFile="Markdown.Avalonia.SyntaxHigh.dll"/>
+    <ROW ProjectId="{5fe07e15-fd89-4ef4-97ba-06db0d4f8215}" ProjectName="WinPDFPresenter" OutputGroup="PublishOutput" OutputFile="MicroCom.Runtime.dll"/>
+    <ROW ProjectId="{5fe07e15-fd89-4ef4-97ba-06db0d4f8215}" ProjectName="WinPDFPresenter" OutputGroup="PublishOutput" OutputFile="Microsoft.Extensions.DependencyInjection.Abstractions.dll"/>
+    <ROW ProjectId="{5fe07e15-fd89-4ef4-97ba-06db0d4f8215}" ProjectName="WinPDFPresenter" OutputGroup="PublishOutput" OutputFile="Microsoft.Extensions.DependencyInjection.dll"/>
+    <ROW ProjectId="{5fe07e15-fd89-4ef4-97ba-06db0d4f8215}" ProjectName="WinPDFPresenter" OutputGroup="PublishOutput" OutputFile="Microsoft.Extensions.Logging.Abstractions.dll"/>
+    <ROW ProjectId="{5fe07e15-fd89-4ef4-97ba-06db0d4f8215}" ProjectName="WinPDFPresenter" OutputGroup="PublishOutput" OutputFile="Microsoft.Extensions.Logging.dll"/>
+    <ROW ProjectId="{5fe07e15-fd89-4ef4-97ba-06db0d4f8215}" ProjectName="WinPDFPresenter" OutputGroup="PublishOutput" OutputFile="Microsoft.Extensions.Options.dll"/>
+    <ROW ProjectId="{5fe07e15-fd89-4ef4-97ba-06db0d4f8215}" ProjectName="WinPDFPresenter" OutputGroup="PublishOutput" OutputFile="Microsoft.Extensions.Primitives.dll"/>
+    <ROW ProjectId="{5fe07e15-fd89-4ef4-97ba-06db0d4f8215}" ProjectName="WinPDFPresenter" OutputGroup="PublishOutput" OutputFile="Newtonsoft.Json.dll"/>
+    <ROW ProjectId="{5fe07e15-fd89-4ef4-97ba-06db0d4f8215}" ProjectName="WinPDFPresenter" OutputGroup="PublishOutput" OutputFile="Onigwrap.dll"/>
+    <ROW ProjectId="{5fe07e15-fd89-4ef4-97ba-06db0d4f8215}" ProjectName="WinPDFPresenter" OutputGroup="PublishOutput" OutputFile="PdfSharp.BarCodes.dll"/>
+    <ROW ProjectId="{5fe07e15-fd89-4ef4-97ba-06db0d4f8215}" ProjectName="WinPDFPresenter" OutputGroup="PublishOutput" OutputFile="PdfSharp.Charting.dll"/>
+    <ROW ProjectId="{5fe07e15-fd89-4ef4-97ba-06db0d4f8215}" ProjectName="WinPDFPresenter" OutputGroup="PublishOutput" OutputFile="PdfSharp.Cryptography.dll"/>
+    <ROW ProjectId="{5fe07e15-fd89-4ef4-97ba-06db0d4f8215}" ProjectName="WinPDFPresenter" OutputGroup="PublishOutput" OutputFile="PdfSharp.dll"/>
+    <ROW ProjectId="{5fe07e15-fd89-4ef4-97ba-06db0d4f8215}" ProjectName="WinPDFPresenter" OutputGroup="PublishOutput" OutputFile="PdfSharp.Quality.dll"/>
+    <ROW ProjectId="{5fe07e15-fd89-4ef4-97ba-06db0d4f8215}" ProjectName="WinPDFPresenter" OutputGroup="PublishOutput" OutputFile="PdfSharp.Shared.dll"/>
+    <ROW ProjectId="{5fe07e15-fd89-4ef4-97ba-06db0d4f8215}" ProjectName="WinPDFPresenter" OutputGroup="PublishOutput" OutputFile="PdfSharp.Snippets.dll"/>
+    <ROW ProjectId="{5fe07e15-fd89-4ef4-97ba-06db0d4f8215}" ProjectName="WinPDFPresenter" OutputGroup="PublishOutput" OutputFile="PdfSharp.System.dll"/>
+    <ROW ProjectId="{5fe07e15-fd89-4ef4-97ba-06db0d4f8215}" ProjectName="WinPDFPresenter" OutputGroup="PublishOutput" OutputFile="PdfSharp.WPFonts.dll"/>
+    <ROW ProjectId="{5fe07e15-fd89-4ef4-97ba-06db0d4f8215}" ProjectName="WinPDFPresenter" OutputGroup="PublishOutput" OutputFile="PDFtoImage.dll"/>
+    <ROW ProjectId="{5fe07e15-fd89-4ef4-97ba-06db0d4f8215}" ProjectName="WinPDFPresenter" OutputGroup="PublishOutput" OutputFile="ReactiveUI.dll"/>
+    <ROW ProjectId="{5fe07e15-fd89-4ef4-97ba-06db0d4f8215}" ProjectName="WinPDFPresenter" OutputGroup="PublishOutput" OutputFile="ShimSkiaSharp.dll"/>
+    <ROW ProjectId="{5fe07e15-fd89-4ef4-97ba-06db0d4f8215}" ProjectName="WinPDFPresenter" OutputGroup="PublishOutput" OutputFile="SkiaSharp.dll"/>
+    <ROW ProjectId="{5fe07e15-fd89-4ef4-97ba-06db0d4f8215}" ProjectName="WinPDFPresenter" OutputGroup="PublishOutput" OutputFile="Splat.dll"/>
+    <ROW ProjectId="{5fe07e15-fd89-4ef4-97ba-06db0d4f8215}" ProjectName="WinPDFPresenter" OutputGroup="PublishOutput" OutputFile="Svg.Custom.dll"/>
+    <ROW ProjectId="{5fe07e15-fd89-4ef4-97ba-06db0d4f8215}" ProjectName="WinPDFPresenter" OutputGroup="PublishOutput" OutputFile="Svg.Model.dll"/>
+    <ROW ProjectId="{5fe07e15-fd89-4ef4-97ba-06db0d4f8215}" ProjectName="WinPDFPresenter" OutputGroup="PublishOutput" OutputFile="System.Reactive.dll"/>
+    <ROW ProjectId="{5fe07e15-fd89-4ef4-97ba-06db0d4f8215}" ProjectName="WinPDFPresenter" OutputGroup="PublishOutput" OutputFile="System.Security.Cryptography.Pkcs.dll"/>
+    <ROW ProjectId="{5fe07e15-fd89-4ef4-97ba-06db0d4f8215}" ProjectName="WinPDFPresenter" OutputGroup="PublishOutput" OutputFile="TextMateSharp.dll"/>
+    <ROW ProjectId="{5fe07e15-fd89-4ef4-97ba-06db0d4f8215}" ProjectName="WinPDFPresenter" OutputGroup="PublishOutput" OutputFile="TextMateSharp.Grammars.dll"/>
+    <ROW ProjectId="{5fe07e15-fd89-4ef4-97ba-06db0d4f8215}" ProjectName="WinPDFPresenter" OutputGroup="PublishOutput" OutputFile="Tmds.DBus.Protocol.dll"/>
+    <ROW ProjectId="{5fe07e15-fd89-4ef4-97ba-06db0d4f8215}" ProjectName="WinPDFPresenter" OutputGroup="PublishOutput" OutputFile="WinPDFPresenter.deps.json"/>
+    <ROW ProjectId="{5fe07e15-fd89-4ef4-97ba-06db0d4f8215}" ProjectName="WinPDFPresenter" OutputGroup="PublishOutput" OutputFile="WinPDFPresenter.dll"/>
+    <ROW ProjectId="{5fe07e15-fd89-4ef4-97ba-06db0d4f8215}" ProjectName="WinPDFPresenter" OutputGroup="PublishOutput" OutputFile="WinPDFPresenter.exe"/>
+    <ROW ProjectId="{5fe07e15-fd89-4ef4-97ba-06db0d4f8215}" ProjectName="WinPDFPresenter" OutputGroup="PublishOutput" OutputFile="WinPDFPresenter.runtimeconfig.json"/>
+    <ROW ProjectId="{5fe07e15-fd89-4ef4-97ba-06db0d4f8215}" ProjectName="WinPDFPresenter" OutputGroup="PublishOutput" OutputFile="libHarfBuzzSharp.so"/>
+    <ROW ProjectId="{5fe07e15-fd89-4ef4-97ba-06db0d4f8215}" ProjectName="WinPDFPresenter" OutputGroup="PublishOutput" OutputFile="libpdfium.so"/>
+    <ROW ProjectId="{5fe07e15-fd89-4ef4-97ba-06db0d4f8215}" ProjectName="WinPDFPresenter" OutputGroup="PublishOutput" OutputFile="libSkiaSharp.so"/>
+    <ROW ProjectId="{5fe07e15-fd89-4ef4-97ba-06db0d4f8215}" ProjectName="WinPDFPresenter" OutputGroup="PublishOutput" OutputFile="libHarfBuzzSharp.so_1"/>
+    <ROW ProjectId="{5fe07e15-fd89-4ef4-97ba-06db0d4f8215}" ProjectName="WinPDFPresenter" OutputGroup="PublishOutput" OutputFile="libonigwrap.so"/>
+    <ROW ProjectId="{5fe07e15-fd89-4ef4-97ba-06db0d4f8215}" ProjectName="WinPDFPresenter" OutputGroup="PublishOutput" OutputFile="libpdfium.so_1"/>
+    <ROW ProjectId="{5fe07e15-fd89-4ef4-97ba-06db0d4f8215}" ProjectName="WinPDFPresenter" OutputGroup="PublishOutput" OutputFile="libSkiaSharp.so_1"/>
+    <ROW ProjectId="{5fe07e15-fd89-4ef4-97ba-06db0d4f8215}" ProjectName="WinPDFPresenter" OutputGroup="PublishOutput" OutputFile="libSkiaSharp.so_2"/>
+    <ROW ProjectId="{5fe07e15-fd89-4ef4-97ba-06db0d4f8215}" ProjectName="WinPDFPresenter" OutputGroup="PublishOutput" OutputFile="libSkiaSharp.so_3"/>
+    <ROW ProjectId="{5fe07e15-fd89-4ef4-97ba-06db0d4f8215}" ProjectName="WinPDFPresenter" OutputGroup="PublishOutput" OutputFile="libonigwrap.so_1"/>
+    <ROW ProjectId="{5fe07e15-fd89-4ef4-97ba-06db0d4f8215}" ProjectName="WinPDFPresenter" OutputGroup="PublishOutput" OutputFile="libpdfium.so_2"/>
+    <ROW ProjectId="{5fe07e15-fd89-4ef4-97ba-06db0d4f8215}" ProjectName="WinPDFPresenter" OutputGroup="PublishOutput" OutputFile="libSkiaSharp.so_4"/>
+    <ROW ProjectId="{5fe07e15-fd89-4ef4-97ba-06db0d4f8215}" ProjectName="WinPDFPresenter" OutputGroup="PublishOutput" OutputFile="libSkiaSharp.so_5"/>
+    <ROW ProjectId="{5fe07e15-fd89-4ef4-97ba-06db0d4f8215}" ProjectName="WinPDFPresenter" OutputGroup="PublishOutput" OutputFile="libSkiaSharp.so_6"/>
+    <ROW ProjectId="{5fe07e15-fd89-4ef4-97ba-06db0d4f8215}" ProjectName="WinPDFPresenter" OutputGroup="PublishOutput" OutputFile="libHarfBuzzSharp.so_2"/>
+    <ROW ProjectId="{5fe07e15-fd89-4ef4-97ba-06db0d4f8215}" ProjectName="WinPDFPresenter" OutputGroup="PublishOutput" OutputFile="libonigwrap.so_2"/>
+    <ROW ProjectId="{5fe07e15-fd89-4ef4-97ba-06db0d4f8215}" ProjectName="WinPDFPresenter" OutputGroup="PublishOutput" OutputFile="libpdfium.so_3"/>
+    <ROW ProjectId="{5fe07e15-fd89-4ef4-97ba-06db0d4f8215}" ProjectName="WinPDFPresenter" OutputGroup="PublishOutput" OutputFile="libSkiaSharp.so_7"/>
+    <ROW ProjectId="{5fe07e15-fd89-4ef4-97ba-06db0d4f8215}" ProjectName="WinPDFPresenter" OutputGroup="PublishOutput" OutputFile="libpdfium.so_4"/>
+    <ROW ProjectId="{5fe07e15-fd89-4ef4-97ba-06db0d4f8215}" ProjectName="WinPDFPresenter" OutputGroup="PublishOutput" OutputFile="libSkiaSharp.so_8"/>
+    <ROW ProjectId="{5fe07e15-fd89-4ef4-97ba-06db0d4f8215}" ProjectName="WinPDFPresenter" OutputGroup="PublishOutput" OutputFile="libHarfBuzzSharp.so_3"/>
+    <ROW ProjectId="{5fe07e15-fd89-4ef4-97ba-06db0d4f8215}" ProjectName="WinPDFPresenter" OutputGroup="PublishOutput" OutputFile="libonigwrap.so_3"/>
+    <ROW ProjectId="{5fe07e15-fd89-4ef4-97ba-06db0d4f8215}" ProjectName="WinPDFPresenter" OutputGroup="PublishOutput" OutputFile="libpdfium.so_5"/>
+    <ROW ProjectId="{5fe07e15-fd89-4ef4-97ba-06db0d4f8215}" ProjectName="WinPDFPresenter" OutputGroup="PublishOutput" OutputFile="libSkiaSharp.so_9"/>
+    <ROW ProjectId="{5fe07e15-fd89-4ef4-97ba-06db0d4f8215}" ProjectName="WinPDFPresenter" OutputGroup="PublishOutput" OutputFile="libpdfium.so_6"/>
+    <ROW ProjectId="{5fe07e15-fd89-4ef4-97ba-06db0d4f8215}" ProjectName="WinPDFPresenter" OutputGroup="PublishOutput" OutputFile="libSkiaSharp.so_10"/>
+    <ROW ProjectId="{5fe07e15-fd89-4ef4-97ba-06db0d4f8215}" ProjectName="WinPDFPresenter" OutputGroup="PublishOutput" OutputFile="libAvaloniaNative.dylib"/>
+    <ROW ProjectId="{5fe07e15-fd89-4ef4-97ba-06db0d4f8215}" ProjectName="WinPDFPresenter" OutputGroup="PublishOutput" OutputFile="libHarfBuzzSharp.dylib"/>
+    <ROW ProjectId="{5fe07e15-fd89-4ef4-97ba-06db0d4f8215}" ProjectName="WinPDFPresenter" OutputGroup="PublishOutput" OutputFile="libonigwrap.dylib"/>
+    <ROW ProjectId="{5fe07e15-fd89-4ef4-97ba-06db0d4f8215}" ProjectName="WinPDFPresenter" OutputGroup="PublishOutput" OutputFile="libSkiaSharp.dylib"/>
+    <ROW ProjectId="{5fe07e15-fd89-4ef4-97ba-06db0d4f8215}" ProjectName="WinPDFPresenter" OutputGroup="PublishOutput" OutputFile="libpdfium.dylib"/>
+    <ROW ProjectId="{5fe07e15-fd89-4ef4-97ba-06db0d4f8215}" ProjectName="WinPDFPresenter" OutputGroup="PublishOutput" OutputFile="libpdfium.dylib_1"/>
+    <ROW ProjectId="{5fe07e15-fd89-4ef4-97ba-06db0d4f8215}" ProjectName="WinPDFPresenter" OutputGroup="PublishOutput" OutputFile="av_libglesv2.dll"/>
+    <ROW ProjectId="{5fe07e15-fd89-4ef4-97ba-06db0d4f8215}" ProjectName="WinPDFPresenter" OutputGroup="PublishOutput" OutputFile="libHarfBuzzSharp.dll"/>
+    <ROW ProjectId="{5fe07e15-fd89-4ef4-97ba-06db0d4f8215}" ProjectName="WinPDFPresenter" OutputGroup="PublishOutput" OutputFile="libonigwrap.dll"/>
+    <ROW ProjectId="{5fe07e15-fd89-4ef4-97ba-06db0d4f8215}" ProjectName="WinPDFPresenter" OutputGroup="PublishOutput" OutputFile="libSkiaSharp.dll"/>
+    <ROW ProjectId="{5fe07e15-fd89-4ef4-97ba-06db0d4f8215}" ProjectName="WinPDFPresenter" OutputGroup="PublishOutput" OutputFile="pdfium.dll"/>
+    <ROW ProjectId="{5fe07e15-fd89-4ef4-97ba-06db0d4f8215}" ProjectName="WinPDFPresenter" OutputGroup="PublishOutput" OutputFile="av_libglesv2.dll_1"/>
+    <ROW ProjectId="{5fe07e15-fd89-4ef4-97ba-06db0d4f8215}" ProjectName="WinPDFPresenter" OutputGroup="PublishOutput" OutputFile="libHarfBuzzSharp.dll_1"/>
+    <ROW ProjectId="{5fe07e15-fd89-4ef4-97ba-06db0d4f8215}" ProjectName="WinPDFPresenter" OutputGroup="PublishOutput" OutputFile="libonigwrap.dll_1"/>
+    <ROW ProjectId="{5fe07e15-fd89-4ef4-97ba-06db0d4f8215}" ProjectName="WinPDFPresenter" OutputGroup="PublishOutput" OutputFile="libSkiaSharp.dll_1"/>
+    <ROW ProjectId="{5fe07e15-fd89-4ef4-97ba-06db0d4f8215}" ProjectName="WinPDFPresenter" OutputGroup="PublishOutput" OutputFile="pdfium.dll_1"/>
+    <ROW ProjectId="{5fe07e15-fd89-4ef4-97ba-06db0d4f8215}" ProjectName="WinPDFPresenter" OutputGroup="PublishOutput" OutputFile="av_libglesv2.dll_2"/>
+    <ROW ProjectId="{5fe07e15-fd89-4ef4-97ba-06db0d4f8215}" ProjectName="WinPDFPresenter" OutputGroup="PublishOutput" OutputFile="libHarfBuzzSharp.dll_2"/>
+    <ROW ProjectId="{5fe07e15-fd89-4ef4-97ba-06db0d4f8215}" ProjectName="WinPDFPresenter" OutputGroup="PublishOutput" OutputFile="libonigwrap.dll_2"/>
+    <ROW ProjectId="{5fe07e15-fd89-4ef4-97ba-06db0d4f8215}" ProjectName="WinPDFPresenter" OutputGroup="PublishOutput" OutputFile="libSkiaSharp.dll_2"/>
+    <ROW ProjectId="{5fe07e15-fd89-4ef4-97ba-06db0d4f8215}" ProjectName="WinPDFPresenter" OutputGroup="PublishOutput" OutputFile="pdfium.dll_2"/>
+    <ROW ProjectId="{5fe07e15-fd89-4ef4-97ba-06db0d4f8215}" ProjectName="WinPDFPresenter" OutputGroup="PublishOutput" OutputFile="System.Security.Cryptography.Pkcs.dll_1"/>
+  </COMPONENT>
+</DOCUMENT>

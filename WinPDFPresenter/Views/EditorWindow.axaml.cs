@@ -20,11 +20,16 @@ namespace WinPDFPresenter.Views;
 
 public partial class EditorWindow : Window {
 	
-	private readonly PresentationViewModel _viewModel;
-	private readonly TextEditor            _textEditor;
-	private readonly TextMate.Installation _textMateInstallation;
-	private const    int                   CurrentTheme = (int)ThemeName.DarkPlus;
-	
+	private readonly PresentationViewModel? _viewModel;
+	private readonly TextEditor?            _textEditor;
+	private readonly TextMate.Installation? _textMateInstallation;
+	private const    int                    CurrentTheme = (int)ThemeName.DarkPlus;
+
+	public EditorWindow() {
+		// This is a dummy constructor; never use this!!!
+		// Only used to fix warning AVLN3001.
+	}
+
 	public EditorWindow(PresentationViewModel viewModel, ICollection<SlideJsonModel>? notes = null) {
 		InitializeComponent();
 		#if DEBUG
@@ -56,8 +61,8 @@ public partial class EditorWindow : Window {
 	}
 
 	#region HelperFunctionsSettingThemes
-	private bool ApplyBrushAction(TextMate.Installation installation, string colourNameFromJson,
-	                              Action<IBrush>        applyColourAction) {
+	private static bool ApplyBrushAction(TextMate.Installation installation, string colourNameFromJson,
+	                                     Action<IBrush>        applyColourAction) {
 		if (!installation.TryGetThemeColor(colourNameFromJson, out var colourString)) return false;
 		if (!Color.TryParse(colourString, out var colour)) return false;
 		var colourBrush = new SolidColorBrush(colour);
@@ -75,20 +80,18 @@ public partial class EditorWindow : Window {
 		ApplyBrushAction(installation, "NotesEditor.foreground", brush => Foreground = brush);
 
 		if (!ApplyBrushAction(installation, "NotesEditor.selectionBackground",
-			    brush => _textEditor.TextArea.SelectionBrush = brush)) {
-			if (Application.Current!.TryGetResource("TextAreaSelectionBrush", out var resourceObject)) {
-				if (resourceObject is IBrush brush) {
-					_textEditor.TextArea.SelectionBrush = brush;
-				}
-			}
+			    brush => _textEditor!.TextArea.SelectionBrush = brush) &&
+		    Application.Current!.TryGetResource("TextAreaSelectionBrush", out var resourceObject) &&
+		    resourceObject is IBrush brush1) {
+			_textEditor!.TextArea.SelectionBrush = brush1;
 		}
 
 		if (!ApplyBrushAction(installation, "NotesEditor.lineHighlightBackground",
 			    brush => {
-				    _textEditor.TextArea.TextView.CurrentLineBackground = brush;
+				    _textEditor!.TextArea.TextView.CurrentLineBackground = brush;
 				    _textEditor.TextArea.TextView.CurrentLineBorder     = new Pen(brush);
 			    })) {
-			_textEditor.TextArea.TextView.SetDefaultHighlightLineColors();
+			_textEditor!.TextArea.TextView.SetDefaultHighlightLineColors();
 		}
 	}
 	#endregion
@@ -100,11 +103,11 @@ public partial class EditorWindow : Window {
 	
 	protected override void OnClosed(EventArgs e) {
 		base.OnClosed(e);
-		_textMateInstallation.Dispose();
+		_textMateInstallation!.Dispose();
 	}
 
 	private void RefreshImages() {
-		_viewModel.LoadImages();
+		_viewModel!.LoadImages();
 		PdfPages.Text = _viewModel.CurrentSlideText + "\n" +
 		                _viewModel.CurrentOverlayText;
 		PdfPreview.Source      = _viewModel.CurrentImage;
@@ -113,20 +116,20 @@ public partial class EditorWindow : Window {
 	}
 	
 	private void PreviousSlideButton_OnClick(object? sender, RoutedEventArgs e) {
-		_viewModel.PreviousPage(_viewModel.CurrentSlideNoteText);
+		_viewModel!.PreviousPage(_viewModel.CurrentSlideNoteText);
 		_viewModel.CurrentSlideNoteText = _viewModel.GetCurrentNoteText();
 		RefreshImages();
 	}
 
 	private void NextSlideButton_OnClick(object? sender, RoutedEventArgs e) {
-		_viewModel.NextPage(_viewModel.CurrentSlideNoteText);
+		_viewModel!.NextPage(_viewModel.CurrentSlideNoteText);
 		_viewModel.CurrentSlideNoteText = _viewModel.GetCurrentNoteText();
 		RefreshImages();
 	}
 
 	private async void SaveNotes(object? sender, RoutedEventArgs e) {
 		List<SlideJsonModel> notes = [];
-		notes.AddRange(_viewModel.PdfProperties.Slides.Select(slide => new SlideJsonModel {
+		notes.AddRange(_viewModel!.PdfProperties.Slides.Select(slide => new SlideJsonModel {
 			Hidden  = false,
 			Idx     = slide.PhysicalPageNumber,
 			Label   = slide.LogicalPageNumber,

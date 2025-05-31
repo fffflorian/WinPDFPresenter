@@ -13,7 +13,7 @@ public partial class SlideJsonModel {
 	/// </summary>
 	[Newtonsoft.Json.JsonProperty("label", Required = Newtonsoft.Json.Required.DisallowNull,
 		NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
-	public string Label { get; set; }
+	public string Label { get; set; } = "";
 
 	/// <summary>
 	/// Overlay index having the same label, 0-based
